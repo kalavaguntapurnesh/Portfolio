@@ -17,13 +17,29 @@ body{
     width: 100%;
 }
 
-.main-container .logo{
-    width: 50%;
-    margin-top: 3%;
+.main-container .navbar{
+    height: 100px;
 }
 
-.main-container .logo h1{
-    margin-left: 9%;
+
+
+.main-container .navbar .logo{
+    width: 50%;
+    margin-top: 2.5%;
+
+}
+
+
+.main-container .navbar .logo h1{
+    padding-left: 8%;
+    font-size: 35px;
+   
+}
+
+
+.main-container .navbar ul li a{
+    text-decoration: none;
+    color: white;
 }
 
 
