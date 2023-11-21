@@ -211,3 +211,115 @@ body{
     font-size: 24px;
 }
 
+.middleData{
+    background: white;
+    height: auto;
+    padding-bottom: 2%;
+}
+
+
+.middleData .middleOne{
+    padding-left: 3%;
+    padding-top: 3%;
+}
+
+
+.middleData .middleOne h1{
+    font-size: 70px;
+    font-weight:bolder;
+}
+
+
+
+.middleData .middleOne p{
+    font-weight:thin;
+    line-height: 1.8;
+    font-size: 20px;
+    width: 80%;
+    padding-left: 2px;
+    margin-top: 10px;
+}
+
+.middleData .middleTwo {
+    padding-left: 3%;
+    padding-top: 3%; 
+}
+
+
+.middleData .middleTwo h1{
+    color: black;
+    font-size: 32px;
+    font-weight:bolder;
+}
+
+
+.middleData .middleTwo p{
+    font-weight:thin;
+    line-height: 1.8;
+    font-size: 18px;
+    width: 80%;
+    padding-left: 2px;
+    margin-top: 10px;
+    color: black;
+    padding-bottom: 2%;
+}
+
+
+.middleData .middleTwo button {
+    border: none;
+    outline: none;
+    height: 45px;
+    width: 190px;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    background: black;
+    font-size: 16px;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.middleData .middleThree{
+    padding-left: 3%;
+    padding-top: 3%; 
+}
+
+.middleData .middleThree h1{
+    color: black;
+    font-size: 32px;
+    font-weight:bolder;
+}
+
+
+.middleData .middleThree p{
+    font-weight:thin;
+    line-height: 1.8;
+    font-size: 18px;
+    width: 80%;
+    padding-left: 2px;
+    margin-top: 10px;
+    color: black;
+    padding-bottom: 2%;
+}
+
+
+.middleData .middleThree button {
+    border: none;
+    outline: none;
+    height: 45px;
+    width: 190px;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    background: black;
+    font-size: 16px;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
