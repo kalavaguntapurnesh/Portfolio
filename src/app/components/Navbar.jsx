@@ -59,26 +59,26 @@ const Navbar = () => {
 
             <ul className="hidden md:flex md:pt-4 ">
               <li className="lg:p-4 p-[11px] cursor-pointer text-white font-medium uppercase text-sm tracking-wider">
-                <Link href="/">Home</Link>
+                <a href="/">Home</a>
               </li>
               <li className="lg:p-4 p-[11px] cursor-pointer text-white font-medium uppercase text-sm tracking-wider">
-                <Link href="/">Services </Link>
+                <a href="/">Services </a>
               </li>
               <li className="lg:p-4 p-[11px] cursor-pointer text-white font-medium uppercase text-sm tracking-wider">
-                <Link href="/">Skills</Link>
+                <a href="#skills">Skills</a>
               </li>
               <li className="lg:p-4 p-[11px] cursor-pointer text-white font-medium uppercase text-sm tracking-wider">
-                <Link href="/">Projects</Link>
+                <a href="#projects">Projects</a>
               </li>
               <li className="lg:p-4 p-[11px] cursor-pointer text-white font-medium uppercase text-sm tracking-wider">
-                <Link href="/">Experience</Link>
+                <a href="#timeline">Experience</a>
               </li>
               {/* <li className="lg:p-4 p-[11px] cursor-pointer text-white font-medium uppercase text-sm tracking-wider">
                 <Link href="/services">Contact</Link>
               </li> */}
               <li className="lg:p-4 p-[11px] cursor-pointer font-medium">
                 <a
-                  href="/"
+                  href="#contact"
                   className="bg-white
         rounded-[4px] text-black px-8 py-2.5 text-center"
                 >
@@ -107,22 +107,22 @@ const Navbar = () => {
               </h1>
               <ul className=" uppercase p-4">
                 <li className="p-4 border-b border-gray-600 text-[#000300] cursor-pointer font-medium dark:text-white">
-                  <Link href="/">Home</Link>
+                  <a href="/">Home</a>
                 </li>
                 <li className="p-4 border-b border-gray-600 text-[#000300] cursor-pointer font-medium dark:text-white">
-                  <Link href="/">Services</Link>
+                  <a href="#services">Services</a>
                 </li>
                 <li className="p-4 border-b border-gray-600 text-[#000300] cursor-pointer font-medium dark:text-white">
-                  <Link href="/">Skills</Link>
+                  <a href="#skills">Skills</a>
                 </li>
                 <li className="p-4 border-b border-gray-600 text-[#000300] cursor-pointer font-medium dark:text-white">
-                  <Link href="/">Projects</Link>
+                  <a href="#projects">Projects</a>
                 </li>
                 <li className="p-4 border-b border-gray-600 text-[#000300] cursor-pointer font-medium dark:text-white">
-                  <Link href="/">Experience</Link>
+                  <a href="#timeline">Experience</a>
                 </li>
                 <li className="p-4 text-[#000300] cursor-pointer font-medium dark:text-white">
-                  <Link href="/">Contact</Link>
+                  <a href="#contact">Contact</a>
                 </li>
               </ul>
             </div>
