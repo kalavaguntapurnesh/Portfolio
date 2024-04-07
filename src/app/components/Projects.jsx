@@ -11,8 +11,11 @@ const Projects = () => {
               My Projects
             </h1>
           </div>
-          <div className="grid md:grid-cols-3 gap-6">
-            <a href="https://mac-global-services.vercel.app/" className="flex flex-col justify-center items-center ">
+          <div className="grid md:grid-cols-3 gap-8">
+            <a
+              href="https://mac-global-services.vercel.app/"
+              className="flex flex-col justify-center items-center "
+            >
               <div className="w-[90%] md:w-full">
                 <Image
                   src="/One.png"
@@ -31,7 +34,10 @@ const Projects = () => {
                 </p>
               </div>
             </a>
-            <a href="https://calendly-sigma.vercel.app/" className="flex flex-col justify-center items-center">
+            <a
+              href="https://calendly-sigma.vercel.app/"
+              className="flex flex-col justify-center items-center"
+            >
               <div className="w-[90%] md:w-full">
                 <Image
                   src="/Two.png"
@@ -43,14 +49,17 @@ const Projects = () => {
               </div>
               <div className="w-[90%] md:w-full mt-2">
                 <h1 className="text-lg font-semibold">
-                  MAC Global Services Website
+                  Appointment Scheduling Website
                 </h1>
                 <p className="text-md font-normal text-gray-400">
-                  A freelance project developed for an education consultancy.
+                  A freelance project developed on appointment scheduling.
                 </p>
               </div>
             </a>
-            <a href="https://clouddatanetworks.com/" className="flex flex-col justify-center items-center ">
+            <a
+              href="https://clouddatanetworks.com/"
+              className="flex flex-col justify-center items-center "
+            >
               <div className="w-[90%] md:w-full">
                 <Image
                   src="/Three.png"
@@ -62,14 +71,17 @@ const Projects = () => {
               </div>
               <div className="w-[90%] md:w-full mt-2">
                 <h1 className="text-lg font-semibold">
-                  MAC Global Services Website
+                  Cloud Data Networks Website
                 </h1>
                 <p className="text-md font-normal text-gray-400">
-                  A freelance project developed for an education consultancy.
+                 Webiste developed as an intern for our new startup company.
                 </p>
               </div>
             </a>
-            <a href="https://clouddatanetworks.com/" className="flex flex-col justify-center items-center ">
+            <a
+              href="https://clouddatanetworks.com/"
+              className="flex flex-col justify-center items-center "
+            >
               <div className="w-[90%] md:w-full">
                 <Image
                   src="/One.png"
@@ -88,7 +100,10 @@ const Projects = () => {
                 </p>
               </div>
             </a>
-            <a href="https://clouddatanetworks.com/" className="flex flex-col justify-center items-center ">
+            <a
+              href="https://clouddatanetworks.com/"
+              className="flex flex-col justify-center items-center "
+            >
               <div className="w-[90%] md:w-full">
                 <Image
                   src="/One.png"
@@ -107,7 +122,10 @@ const Projects = () => {
                 </p>
               </div>
             </a>
-            <a href="https://clouddatanetworks.com/" className="flex flex-col justify-center items-center ">
+            <a
+              href="https://clouddatanetworks.com/"
+              className="flex flex-col justify-center items-center "
+            >
               <div className="w-[90%] md:w-full">
                 <Image
                   src="/One.png"

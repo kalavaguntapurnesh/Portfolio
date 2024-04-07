@@ -14,7 +14,7 @@ export default function Home() {
       <Navbar />
       {/* <Hero /> */}
       <Record />
-      <Services />
+      {/* <Services /> */}
       <Skills />
       <Timeline />
       <Projects />
