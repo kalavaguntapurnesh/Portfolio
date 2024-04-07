@@ -7,6 +7,7 @@ import Skills from "@/app/components/Skills";
 import Footer from "@/app/components/Footer";
 import Contact from "@/app/components/Contact";
 import Record from "@/app/components/Record";
+import ScrollToTop from "@/app/components/ScrollToTop";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Navbar />
       {/* <Hero /> */}
       <Record />
+      <ScrollToTop />
       {/* <Services /> */}
       <Skills />
       <Timeline />
