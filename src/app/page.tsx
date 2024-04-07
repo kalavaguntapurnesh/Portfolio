@@ -2,7 +2,7 @@
 import Navbar from "@/app/components/Navbar";
 // import Hero from "@/app/components/Hero";
 // import About from "@/app/components/About";
-// import Projects from "@/app/components/Projects";
+import Timeline from "@/app/components/Timeline";
 import Skills from "@/app/components/Skills";
 import Footer from "@/app/components/Footer";
 import Contact from "@/app/components/Contact";
@@ -17,6 +17,7 @@ export default function Home() {
       <Projects /> */}
       <Record />
       <Skills />
+      <Timeline />
       <Contact />
       <Footer />
     </main>

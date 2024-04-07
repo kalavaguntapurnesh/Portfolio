@@ -6,9 +6,9 @@ const Skills = () => {
     <div className="relative pt-8 pb-4 ">
       <div className="w-full">
         <div className="w-full px-4 mx-auto max-w-[1400px] text-white">
-          <div className="mt-4 mb-4">
+          <div className="mt-4 mb-8">
             <h1 className="text-center font-semibold tracking-normal leading-relaxed text-3xl">
-              Skills
+              My Skills
             </h1>
           </div>
           <div className="grid md:grid-cols-5 grid-cols-3 gap-6">
