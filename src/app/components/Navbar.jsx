@@ -62,6 +62,9 @@ const Navbar = () => {
                 <Link href="/">Home</Link>
               </li>
               <li className="lg:p-4 p-[11px] cursor-pointer text-white font-medium uppercase text-sm tracking-wider">
+                <Link href="/features">About </Link>
+              </li>
+              <li className="lg:p-4 p-[11px] cursor-pointer text-white font-medium uppercase text-sm tracking-wider">
                 <Link href="/about">Skills</Link>
               </li>
               <li className="lg:p-4 p-[11px] cursor-pointer text-white font-medium uppercase text-sm tracking-wider">
@@ -70,11 +73,14 @@ const Navbar = () => {
               <li className="lg:p-4 p-[11px] cursor-pointer text-white font-medium uppercase text-sm tracking-wider">
                 <Link href="/services">Experience</Link>
               </li>
+              {/* <li className="lg:p-4 p-[11px] cursor-pointer text-white font-medium uppercase text-sm tracking-wider">
+                <Link href="/services">Contact</Link>
+              </li> */}
               <li className="lg:p-4 p-[11px] cursor-pointer font-medium">
                 <a
                   href="/contact"
-                  className="bg-colorOne
-        rounded-[4px] text-white px-8 py-2.5 text-center"
+                  className="bg-white
+        rounded-[4px] text-black px-8 py-2.5 text-center"
                 >
                   Contact{" "}
                 </a>
@@ -96,12 +102,15 @@ const Navbar = () => {
                   : "md:hidden fixed left-0 top-0 w-[70%] border-r  h-[75%] bg-white dark:bg-[#000300] ease-in-out duration-1000 rounded-b-lg z-10 shadow-xl"
               }
             >
-              <h1 className="w-full text-2xl text-white font-bold m-4 cursor-pointer">
+              <h1 className="w-full text-2xl text-black font-bold m-4 cursor-pointer">
                 PURNESH.
               </h1>
               <ul className=" uppercase p-4">
                 <li className="p-4 border-b border-gray-600 text-[#000300] cursor-pointer font-medium dark:text-white">
                   <Link href="/">Home</Link>
+                </li>
+                <li className="p-4 border-b border-gray-600 text-[#000300] cursor-pointer font-medium dark:text-white">
+                  <Link href="/">About</Link>
                 </li>
                 <li className="p-4 border-b border-gray-600 text-[#000300] cursor-pointer font-medium dark:text-white">
                   <Link href="/about">Skills</Link>
