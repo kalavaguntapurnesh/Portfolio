@@ -4,7 +4,7 @@ import HeroOne from "../../../public/lotties/HeroOne.json";
 
 const Hero = () => {
   return (
-    <div className="w-full pt-28 pb-8 h-auto ">
+    <div className="w-full pt-28 pb-8 h-auto " id="home">
       <div className="max-w-[1400px] m-auto grid md:grid-cols-2 ">
         <div className="flex flex-col gap-4 w-full">
           <div className=" flex items-center lg:justify-start justify-center mt-4 mx-3">

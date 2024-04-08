@@ -64,10 +64,10 @@ const Navbar = () => {
 
             <ul className="hidden md:flex md:pt-4 ">
               <li className="lg:p-4 p-[11px] cursor-pointer text-white font-medium uppercase text-sm tracking-wider">
-                <a href="/">Home</a>
+                <a href="#home">Home</a>
               </li>
               <li className="lg:p-4 p-[11px] cursor-pointer text-white font-medium uppercase text-sm tracking-wider">
-                <a href="/">Services </a>
+                <a href="#home">Services </a>
               </li>
               <li className="lg:p-4 p-[11px] cursor-pointer text-white font-medium uppercase text-sm tracking-wider">
                 <a href="#skills">Skills</a>
@@ -112,7 +112,7 @@ const Navbar = () => {
               </h1>
               <ul className=" uppercase p-4">
                 <li className="p-4 border-b border-gray-600 text-[#000300] cursor-pointer font-medium dark:text-white">
-                  <a href="/">Home</a>
+                  <a href="#home">Home</a>
                 </li>
                 <li className="p-4 border-b border-gray-600 text-[#000300] cursor-pointer font-medium dark:text-white">
                   <a href="#services">Services</a>
