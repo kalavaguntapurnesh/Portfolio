@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Projects = () => {
   return (
-    <div className="relative pt-8 pb-16" id="projects">
+    <div className="relative pt-8 md:pb-16 pb-4" id="projects">
       <div className="w-full">
         <div className="w-full px-4 mx-auto max-w-[1400px] text-white">
           <div className="mt-4 mb-8">
@@ -74,7 +74,7 @@ const Projects = () => {
                   Cloud Data Networks Website
                 </h1>
                 <p className="text-md font-normal text-gray-400">
-                 Webiste developed as an intern for our new startup company.
+                  Webiste developed as an intern for our new startup company.
                 </p>
               </div>
             </a>

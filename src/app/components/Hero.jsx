@@ -1,6 +1,6 @@
 import React from "react";
 import Lottie from "lottie-react";
-import HeroOne from "../../../public/lotties/HeroOne.json"
+import HeroOne from "../../../public/lotties/HeroOne.json";
 
 const Hero = () => {
   return (
@@ -23,9 +23,9 @@ const Hero = () => {
           <div className="flex items-center lg:justify-start justify-center mx-3">
             <p className="lg:text-lg text-[16px] text-white lg:px-2 lg:text-start text-center">
               I'm passionate MERN Stack web and app developer specializing in
-              React.js, React Native, Spring, Node.js, and Express.js. Experienced in
-              creating robust and user-friendly web applications across the
-              software development lifecycle.
+              React.js, React Native, Spring, Node.js, and Express.js.
+              Experienced in creating robust and user-friendly web applications
+              across the software development lifecycle.
             </p>
           </div>
 

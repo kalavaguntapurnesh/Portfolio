@@ -55,6 +55,11 @@ const Navbar = () => {
                 height={90}
                 className="pb-4 pl-6 cursor-pointer w-full"
               ></Image> */}
+              <div className="font-semibold text-[30px] pb-4 pl-6">
+                <h2 className="text-white">
+                  <span className="text-white">PUR</span>NESH.
+                </h2>
+              </div>
             </div>
 
             <ul className="hidden md:flex md:pt-4 ">
