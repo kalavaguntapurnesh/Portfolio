@@ -35,12 +35,12 @@ const Projects = () => {
               </div>
             </a>
             <a
-              href="https://calendly-sigma.vercel.app/"
-              className="flex flex-col justify-center items-center"
+              href="https://securenetworkguardsolutions.com/"
+              className="flex flex-col justify-center items-center "
             >
               <div className="w-[90%] md:w-full">
                 <Image
-                  src="/Two.png"
+                  src="/Five.png"
                   alt="Hello"
                   width={200}
                   height={200}
@@ -49,13 +49,15 @@ const Projects = () => {
               </div>
               <div className="w-[90%] md:w-full mt-2">
                 <h1 className="text-lg font-semibold">
-                  Appointment Scheduling Website
+                  Secure Network Guard Solutions Website
                 </h1>
                 <p className="text-md font-normal text-gray-400">
-                  A freelance project developed on appointment scheduling.
+                  A project developed for SNG company using HTML, CSS and
+                  Javascript.
                 </p>
               </div>
             </a>
+
             <a
               href="https://clouddatanetworks.com/"
               className="flex flex-col justify-center items-center "
@@ -79,12 +81,12 @@ const Projects = () => {
               </div>
             </a>
             <a
-              href="https://clouddatanetworks.com/"
+              href="https://alchemindssolutions.com/"
               className="flex flex-col justify-center items-center "
             >
               <div className="w-[90%] md:w-full">
                 <Image
-                  src="/One.png"
+                  src="/Four.png"
                   alt="Hello"
                   width={200}
                   height={200}
@@ -93,20 +95,21 @@ const Projects = () => {
               </div>
               <div className="w-[90%] md:w-full mt-2">
                 <h1 className="text-lg font-semibold">
-                  MAC Global Services Website
+                  Alcheminds Solutions Website
                 </h1>
                 <p className="text-md font-normal text-gray-400">
-                  A freelance project developed for an education consultancy.
+                  A website developed as an intern using HTML, CSS and
+                  Javascript.
                 </p>
               </div>
             </a>
             <a
-              href="https://clouddatanetworks.com/"
-              className="flex flex-col justify-center items-center "
+              href="https://calendly-sigma.vercel.app/"
+              className="flex flex-col justify-center items-center"
             >
               <div className="w-[90%] md:w-full">
                 <Image
-                  src="/One.png"
+                  src="/Two.png"
                   alt="Hello"
                   width={200}
                   height={200}
@@ -115,20 +118,20 @@ const Projects = () => {
               </div>
               <div className="w-[90%] md:w-full mt-2">
                 <h1 className="text-lg font-semibold">
-                  MAC Global Services Website
+                  Appointment Scheduling Website
                 </h1>
                 <p className="text-md font-normal text-gray-400">
-                  A freelance project developed for an education consultancy.
+                  A freelance project developed on appointment scheduling.
                 </p>
               </div>
             </a>
             <a
-              href="https://clouddatanetworks.com/"
+              href="https://edu-kare.vercel.app/"
               className="flex flex-col justify-center items-center "
             >
               <div className="w-[90%] md:w-full">
                 <Image
-                  src="/One.png"
+                  src="/Six.png"
                   alt="Hello"
                   width={200}
                   height={200}
@@ -137,10 +140,11 @@ const Projects = () => {
               </div>
               <div className="w-[90%] md:w-full mt-2">
                 <h1 className="text-lg font-semibold">
-                  MAC Global Services Website
+                  Edukare Education Website
                 </h1>
                 <p className="text-md font-normal text-gray-400">
-                  A freelance project developed for an education consultancy.
+                  A freelance project developed for a education marketing
+                  company.
                 </p>
               </div>
             </a>
