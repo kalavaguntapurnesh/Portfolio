@@ -44,7 +44,7 @@ const Contact = () => {
                       type="text"
                       name="name"
                       id="name"
-                      placeholder="Rohit Sukheja"
+                      placeholder="Purnesh Kalavagunta"
                       className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none  focus:shadow-md"
                     />
                   </div>
