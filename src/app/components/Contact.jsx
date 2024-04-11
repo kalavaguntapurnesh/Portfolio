@@ -87,9 +87,12 @@ const Contact = () => {
 
                 <div className="w-full flex justify-center items-center">
                   <div className="mb-5 md:w-8/12 w-full">
-                    <button className="hover:shadow-form rounded-md bg-white transition duration-1000 ease-in-out py-3 px-12 text-base font-semibold text-black outline-none">
+                    <a
+                      href="#home"
+                      className="hover:shadow-form rounded-md bg-white transition duration-1000 ease-in-out py-3 px-12 text-base font-semibold text-black outline-none"
+                    >
                       Submit
-                    </button>
+                    </a>
                   </div>
                 </div>
               </form>

@@ -66,9 +66,9 @@ const Navbar = () => {
               <li className="lg:p-4 p-[11px] cursor-pointer text-white font-medium uppercase text-sm tracking-wider">
                 <a href="#home">Home</a>
               </li>
-              <li className="lg:p-4 p-[11px] cursor-pointer text-white font-medium uppercase text-sm tracking-wider">
+              {/* <li className="lg:p-4 p-[11px] cursor-pointer text-white font-medium uppercase text-sm tracking-wider">
                 <a href="#home">Services </a>
-              </li>
+              </li> */}
               <li className="lg:p-4 p-[11px] cursor-pointer text-white font-medium uppercase text-sm tracking-wider">
                 <a href="#skills">Skills</a>
               </li>
@@ -114,9 +114,9 @@ const Navbar = () => {
                 <li className="p-4 border-b border-gray-600 text-[#000300] cursor-pointer font-medium dark:text-white">
                   <a href="#home">Home</a>
                 </li>
-                <li className="p-4 border-b border-gray-600 text-[#000300] cursor-pointer font-medium dark:text-white">
+                {/* <li className="p-4 border-b border-gray-600 text-[#000300] cursor-pointer font-medium dark:text-white">
                   <a href="#services">Services</a>
-                </li>
+                </li> */}
                 <li className="p-4 border-b border-gray-600 text-[#000300] cursor-pointer font-medium dark:text-white">
                   <a href="#skills">Skills</a>
                 </li>
