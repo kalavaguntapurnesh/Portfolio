@@ -37,7 +37,7 @@ const Hero = () => {
 
           <div className="flex items-center lg:justify-start justify-center md:mx-5">
             <a
-              href="/contact"
+              href="#contact"
               className="bg-white font-semibold outline-none
             rounded-md hover:shadow-form transition duration-1000 ease-in-out hover:bg-colorTwo text-black px-8 py-2.5 text-center"
             >
