@@ -63,24 +63,22 @@ const Navbar = () => {
             </div>
 
             <ul className="hidden md:flex md:pt-4 ">
-              <li className="lg:p-4 p-[11px] cursor-pointer text-white font-medium uppercase text-sm tracking-wider">
+              <li className="lg:p-4 p-[11px] group cursor-pointer text-white font-medium uppercase text-sm tracking-wider hover:text-gray-300 transition duration-1000 ">
                 <a href="#home">Home</a>
+                <div class="bg-amber-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
               </li>
-              {/* <li className="lg:p-4 p-[11px] cursor-pointer text-white font-medium uppercase text-sm tracking-wider">
-                <a href="#home">Services </a>
-              </li> */}
-              <li className="lg:p-4 p-[11px] cursor-pointer text-white font-medium uppercase text-sm tracking-wider">
+              <li className="lg:p-4 p-[11px] group cursor-pointer text-white font-medium uppercase text-sm tracking-wider hover:text-gray-300 transition duration-1000">
                 <a href="#skills">Skills</a>
+                <div class="bg-amber-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
               </li>
-              <li className="lg:p-4 p-[11px] cursor-pointer text-white font-medium uppercase text-sm tracking-wider">
+              <li className="lg:p-4 p-[11px] group cursor-pointer text-white font-medium uppercase text-sm tracking-wider hover:text-gray-300 transition duration-1000">
                 <a href="#projects">Projects</a>
+                <div class="bg-amber-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
               </li>
-              <li className="lg:p-4 p-[11px] cursor-pointer text-white font-medium uppercase text-sm tracking-wider">
+              <li className="lg:p-4 p-[11px] group cursor-pointer text-white font-medium uppercase text-sm tracking-wider hover:text-gray-300 transition duration-1000">
                 <a href="#timeline">Experience</a>
+                <div class="bg-amber-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
               </li>
-              {/* <li className="lg:p-4 p-[11px] cursor-pointer text-white font-medium uppercase text-sm tracking-wider">
-                <Link href="/services">Contact</Link>
-              </li> */}
               <li className="lg:p-4 p-[11px] cursor-pointer font-medium">
                 <a
                   href="#contact"
@@ -104,19 +102,16 @@ const Navbar = () => {
               className={
                 !nav
                   ? "md:hidden fixed left-[-100%] h-[75%] ease-in-out duration-1000 "
-                  : "md:hidden fixed left-0 top-0 w-[70%] border-r  h-[75%] bg-white dark:bg-[#000300] ease-in-out duration-1000 rounded-b-lg z-10 shadow-xl"
+                  : "md:hidden fixed left-0 top-0 w-[70%] border-r h-[75%] bg-white dark:bg-[#000300] ease-in-out duration-1000 rounded-b-lg z-10 shadow-xl"
               }
             >
               <h1 className="w-full text-2xl text-black font-bold m-4 cursor-pointer">
                 PURNESH.
               </h1>
               <ul className=" uppercase p-4">
-                <li className="p-4 border-b border-gray-600 text-[#000300] cursor-pointer font-medium dark:text-white">
+                <li className="p-4 border-b border-gray-600 text-[#000300] cursor-pointer font-medium dark:text-white ">
                   <a href="#home">Home</a>
                 </li>
-                {/* <li className="p-4 border-b border-gray-600 text-[#000300] cursor-pointer font-medium dark:text-white">
-                  <a href="#services">Services</a>
-                </li> */}
                 <li className="p-4 border-b border-gray-600 text-[#000300] cursor-pointer font-medium dark:text-white">
                   <a href="#skills">Skills</a>
                 </li>
