@@ -215,7 +215,7 @@ const Skills = () => {
             <div className="flex flex-col justify-center items-center rounded-md">
               <div className="my-1">
                 <Image
-                  src="/Github.svg"
+                  src="/Figma.svg"
                   alt=""
                   width={27}
                   height={52}
@@ -224,7 +224,7 @@ const Skills = () => {
               </div>
               <div className="my-1">
                 <h1 className="font-medium text-md tracking-wide">
-                  Git/Github
+                  Figma
                 </h1>
               </div>
             </div>
