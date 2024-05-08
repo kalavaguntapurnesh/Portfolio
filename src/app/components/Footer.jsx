@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="w-full px-4 mx-auto max-w-[1400px] text-white">
           <div className="text-center ">
             <h1 className="text-center font-semibold tracking-normal leading-relaxed text-3xl">
-              Connect with me
+              Connect with me here.
             </h1>
           </div>
           <div className="w-full mx-auto px-4 max-w-[900px] mt-8 mb-6">
