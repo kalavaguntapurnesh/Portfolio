@@ -42,7 +42,7 @@ const Navbar = () => {
               </div>
               <div className="font-semibold text-[30px] hidden lg:block">
                 <h2 className="text-green-500">
-                  PURNESH<span className="text-white">.</span>
+                  PURNESH.
                 </h2>
               </div>
             </div>
@@ -57,7 +57,7 @@ const Navbar = () => {
               ></Image> */}
               <div className="font-semibold text-[30px] pb-4 pl-6">
                 <h2 className="text-green-500">
-                  PURNESH<span className="text-white">.</span>
+                  PURNESH.
                 </h2>
               </div>
             </div>
@@ -106,7 +106,7 @@ const Navbar = () => {
               }
             >
               <h1 className="w-full text-2xl text-green-500 font-bold m-4 cursor-pointer">
-                PURNESH<span className="text-white">.</span>
+                PURNESH.
               </h1>
               <ul className=" uppercase p-4">
                 <li className="p-4 border-b border-gray-600 text-[#000300] cursor-pointer font-medium dark:text-white ">

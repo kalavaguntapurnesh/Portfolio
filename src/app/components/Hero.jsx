@@ -10,7 +10,7 @@ const Hero = () => {
           <div className=" flex items-center lg:justify-start justify-center mt-4 mx-3">
             <h1 className="xl:text-6xl text-[48px] font-bold lg:px-2 xl:leading-[72px] lg:leading-[60px] lg:text-start text-center text-white">
               Hello, myself Purnesh <br></br>
-              <span className="text-colorOne">Kalavagunta</span>
+              <span className="text-green-500">Kalavagunta</span>
             </h1>
           </div>
 
