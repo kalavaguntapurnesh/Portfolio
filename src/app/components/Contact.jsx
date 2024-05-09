@@ -89,7 +89,7 @@ const Contact = () => {
                   <div className="mb-5 md:w-8/12 w-full">
                     <a
                       href="#home"
-                      className="hover:shadow-form rounded-md bg-white transition duration-1000 ease-in-out py-3 px-12 text-base font-semibold text-black outline-none"
+                      className="hover:shadow-form rounded-md bg-green-500 transition duration-1000 ease-in-out hover:bg-[#10C0A2] py-3 px-12 text-base font-semibold text-black outline-none"
                     >
                       Submit
                     </a>

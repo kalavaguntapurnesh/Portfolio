@@ -41,8 +41,8 @@ const Navbar = () => {
                 {/* <Image src="/Logo.jpg" alt="" width={120} height={100}></Image> */}
               </div>
               <div className="font-semibold text-[30px] hidden lg:block">
-                <h2 className="text-white">
-                  <span className="text-white">PUR</span>NESH.
+                <h2 className="text-green-500">
+                  PURNESH<span className="text-white">.</span>
                 </h2>
               </div>
             </div>
@@ -56,8 +56,8 @@ const Navbar = () => {
                 className="pb-4 pl-6 cursor-pointer w-full"
               ></Image> */}
               <div className="font-semibold text-[30px] pb-4 pl-6">
-                <h2 className="text-white">
-                  <span className="text-white">PUR</span>NESH.
+                <h2 className="text-green-500">
+                  PURNESH<span className="text-white">.</span>
                 </h2>
               </div>
             </div>
@@ -65,24 +65,24 @@ const Navbar = () => {
             <ul className="hidden md:flex md:pt-4 ">
               <li className="lg:p-4 p-[11px] group cursor-pointer text-white font-medium uppercase text-sm tracking-wider hover:text-gray-300 transition duration-1000 ">
                 <a href="#home">Home</a>
-                <div className="bg-amber-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                <div className="bg-green-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
               </li>
               <li className="lg:p-4 p-[11px] group cursor-pointer text-white font-medium uppercase text-sm tracking-wider hover:text-gray-300 transition duration-1000">
                 <a href="#skills">Skills</a>
-                <div className="bg-amber-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                <div className="bg-green-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
               </li>
               <li className="lg:p-4 p-[11px] group cursor-pointer text-white font-medium uppercase text-sm tracking-wider hover:text-gray-300 transition duration-1000">
                 <a href="#projects">Projects</a>
-                <div className="bg-amber-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                <div className="bg-green-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
               </li>
               <li className="lg:p-4 p-[11px] group cursor-pointer text-white font-medium uppercase text-sm tracking-wider hover:text-gray-300 transition duration-1000">
                 <a href="#timeline">Experience</a>
-                <div className="bg-amber-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                <div className="bg-green-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
               </li>
               <li className="lg:p-4 p-[11px] cursor-pointer font-medium">
                 <a
                   href="#contact"
-                  className="bg-white
+                  className="bg-green-500 duration-1000 ease-in-out transition hover:bg-[#10C0A2]
         rounded-[4px] text-black px-8 py-2.5 text-center"
                 >
                   Contact{" "}
@@ -105,8 +105,8 @@ const Navbar = () => {
                   : "md:hidden fixed left-0 top-0 w-[70%] border-r h-[75%] bg-white dark:bg-[#000300] ease-in-out duration-1000 rounded-b-lg z-10 shadow-xl "
               }
             >
-              <h1 className="w-full text-2xl text-black font-bold m-4 cursor-pointer">
-                PURNESH.
+              <h1 className="w-full text-2xl text-green-500 font-bold m-4 cursor-pointer">
+                PURNESH<span className="text-white">.</span>
               </h1>
               <ul className=" uppercase p-4">
                 <li className="p-4 border-b border-gray-600 text-[#000300] cursor-pointer font-medium dark:text-white ">
