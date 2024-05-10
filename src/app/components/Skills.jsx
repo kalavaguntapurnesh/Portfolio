@@ -8,7 +8,7 @@ const Skills = () => {
         <div className="w-full px-4 mx-auto max-w-[1400px] text-white">
           <div className="mt-4 mb-8">
             <h1 className="text-center font-semibold tracking-normal leading-relaxed text-3xl">
-              My Skills
+              Skills & Tools Set
             </h1>
           </div>
           <div className="grid md:grid-cols-5 grid-cols-3 gap-6">
@@ -223,9 +223,7 @@ const Skills = () => {
                 ></Image>
               </div>
               <div className="my-1">
-                <h1 className="font-medium text-md tracking-wide">
-                  Figma
-                </h1>
+                <h1 className="font-medium text-md tracking-wide">Figma</h1>
               </div>
             </div>
           </div>
