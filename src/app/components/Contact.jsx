@@ -85,8 +85,8 @@ const Contact = () => {
                   </div>
                 </div>
 
-                <div className="w-full flex justify-center items-center">
-                  <div className="mb-5 md:w-8/12 w-full">
+                <div className="w-full flex justify-center items-center ">
+                  <div className=" md:w-8/12 w-full flex md:justify-start justify-center items-center">
                     <a
                       href="#home"
                       className="hover:shadow-form rounded-md bg-green-500 transition duration-1000 ease-in-out hover:bg-[#10C0A2] py-3 px-12 text-base font-semibold text-black outline-none"
