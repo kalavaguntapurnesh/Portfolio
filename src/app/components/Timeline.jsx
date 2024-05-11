@@ -2,13 +2,14 @@ import React from "react";
 
 const Timeline = () => {
   return (
-    <div className="relative pt-8 pb-4" id="timeline">
+    <div className="relative pt-8 pb-12" id="timeline">
       <div className="w-full">
         <div className="w-full px-4 mx-auto max-w-[1400px] text-white">
-          <div className="mt-4 mb-8">
+          <div className="mt-4 mb-10 flex flex-col flex-wrap items-center">
             <h1 className="text-center font-semibold tracking-normal leading-relaxed text-3xl">
               Education & Experience
             </h1>
+            <div className="w-44 h-1 border-b-4 border-green-500 mt-1"></div>
           </div>
           <div className="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent">
             <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
@@ -36,8 +37,9 @@ const Timeline = () => {
                   </time>
                 </div>
                 <div className="text-slate-500">
-                  Completed Secondary Education with CGPA of <span className="font-semibold">10/10</span>{" "}
-                  which made me a state topper for the year 2017.
+                  Completed Secondary Education with CGPA of{" "}
+                  <span className="font-semibold">10/10</span> which made me a
+                  state topper for the year 2017.
                 </div>
               </div>
             </div>
@@ -67,8 +69,9 @@ const Timeline = () => {
                   </time>
                 </div>
                 <div className="text-slate-500">
-                  Completed my high school diploma with <span className="font-semibold">98.8%</span> of major in Physics,
-                  Chemistry and Mathematics (my favourite subject 😉)
+                  Completed my high school diploma with{" "}
+                  <span className="font-semibold">98.8%</span> of major in
+                  Physics, Chemistry and Mathematics (my favourite subject 😉)
                 </div>
               </div>
             </div>
@@ -98,8 +101,9 @@ const Timeline = () => {
                   </time>
                 </div>
                 <div className="text-slate-500">
-                  Graduated my bachelor's with <span className="font-semibold">86%</span> and learnt on how to deal
-                  complex things in life along with my studies.
+                  Graduated my bachelor's with{" "}
+                  <span className="font-semibold">86%</span> and learnt on how
+                  to deal complex things in life along with my studies.
                 </div>
               </div>
             </div>

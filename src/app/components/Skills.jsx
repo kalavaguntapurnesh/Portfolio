@@ -6,10 +6,11 @@ const Skills = () => {
     <div className="relative pt-8 pb-16" id="skills">
       <div className="w-full">
         <div className="w-full px-4 mx-auto max-w-[1400px] text-white">
-          <div className="mt-4 mb-8">
+          <div className="mt-4 mb-8 flex flex-col flex-wrap items-center">
             <h1 className="text-center font-semibold tracking-normal leading-relaxed text-3xl">
               Skills & Tools Set
             </h1>
+            <div className="w-28 h-1 border-b-4 border-green-500 mt-1"></div>
           </div>
           <div className="grid md:grid-cols-5 grid-cols-3 gap-6">
             <div className="flex flex-col justify-center items-center rounded-md">
