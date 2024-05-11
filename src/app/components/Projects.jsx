@@ -6,10 +6,11 @@ const Projects = () => {
     <div className="relative pt-8 md:pb-16 pb-4" id="projects">
       <div className="w-full">
         <div className="w-full px-4 mx-auto max-w-[1400px] text-white">
-          <div className="mt-4 mb-8">
+          <div className="mt-4 mb-8 flex flex-col flex-wrap items-center">
             <h1 className="text-center font-semibold tracking-normal leading-relaxed text-3xl">
               My Projects
             </h1>
+            <div className="w-24 h-1 border-b-4 border-green-500 mt-1"></div>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             <a
