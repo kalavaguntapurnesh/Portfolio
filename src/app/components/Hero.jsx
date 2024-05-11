@@ -29,7 +29,7 @@ const Hero = () => {
             </p>
           </div>
 
-          <div className="flex items-center lg:justify-start justify-center md:mx-5 lg:mt-1 mt-2 lg:mb-0 mb-4">
+          <div className="flex items-center lg:justify-start justify-center md:mx-5 lg:mt-1 mt-2 lg:mb-0 mb-5">
             <a
               href="#contact"
               className="bg-green-500 font-semibold outline-none
