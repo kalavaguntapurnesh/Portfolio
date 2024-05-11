@@ -21,7 +21,7 @@ const Hero = () => {
           </div>
 
           <div className="flex items-center lg:justify-start justify-center mx-3">
-            <p className="lg:text-lg text-[16px] text-white lg:px-2 lg:text-start text-center">
+            <p className="lg:text-lg text-[16px] text-white lg:px-2 lg:text-start text-center tracking-normal ">
               I'm passionate MERN Stack web and app developer specializing in
               React.js, React Native, Spring, Node.js, and Express.js.
               Experienced in creating robust and user-friendly web applications
@@ -29,13 +29,7 @@ const Hero = () => {
             </p>
           </div>
 
-          {/* <div className="flex items-center lg:justify-start justify-center mx-3">
-            <p className="lg:text-lg text-[16px] text-white lg:px-2 lg:text-start text-center">
-              Currently available for Freelance Projects.
-            </p>
-          </div> */}
-
-          <div className="flex items-center lg:justify-start justify-center md:mx-5">
+          <div className="flex items-center lg:justify-start justify-center md:mx-5 lg:mt-1 mt-2 lg:mb-0 mb-4">
             <a
               href="#contact"
               className="bg-green-500 font-semibold outline-none
