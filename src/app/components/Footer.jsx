@@ -60,7 +60,7 @@ const Footer = () => {
 
           <div className="mt-4">
             <h1 className="text-center tracking-normal leading-relaxed text-xs">
-              Copyright ©2024 Purnesh Kalavagunta
+              Copyright © 2024 Purnesh Kalavagunta. All rights reserved.
             </h1>
           </div>
         </div>
