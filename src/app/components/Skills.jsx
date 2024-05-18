@@ -7,10 +7,12 @@ const Skills = () => {
       <div className="w-full">
         <div className="w-full px-4 mx-auto max-w-[1400px] text-white">
           <div className="mt-4 mb-8 flex flex-col flex-wrap items-center">
-            <h1 className="text-center font-semibold tracking-normal leading-relaxed text-3xl">
-              Skills & Tools Set
-            </h1>
-            <div className="w-28 h-1 border-b-4 border-green-500 mt-1"></div>
+            <div className="group transition duration-1000 hover:text-gray-300">
+              <h1 className="text-center font-semibold tracking-normal leading-relaxed text-3xl">
+                Skills & Tools Set
+              </h1>
+              <div className="bg-green-500 h-[3px] w-full group-hover:w-0 transition-all duration-500"></div>
+            </div>
           </div>
           <div className="grid md:grid-cols-5 grid-cols-3 gap-6">
             <div className="flex flex-col justify-center items-center rounded-md">

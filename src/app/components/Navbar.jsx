@@ -19,46 +19,17 @@ const Navbar = () => {
             className="text-black flex justify-between md:shadow-none shadow-xl h-24 w-full  md:top-0 top-0
      bg-[#000300] max-w-[1400px] mx-auto"
           >
-            {/* <div className="flex flex-row lg:block hidden ml-2 mt-[22px] border-2 border-green-500">
-              <div className="">
-                <Image
-                  src="/Logo.jpg"
-                  alt=""
-                  width={120}
-                  height={100}
-                  className="md:pb-4 text-3xl text-red-500 font-bold lg:pl-12 pl-6 pt-3 cursor-pointer "
-                ></Image>
-              </div>
-              <div className="absolute top-[25px] left-[130px] font-bold text-[30px] hidden xl:block ">
-                <h2 className="text-primaryColor">
-                  <span className="text-primaryColor">MAC</span>GLOBAL.
-                </h2>
-              </div>
-            </div> */}
-
             <div className="lg:flex lg:flex-row lg:justify-center lg:items-center hidden lg:gap-2">
               <div className="pl-4">
-                {/* <Image src="/Logo.jpg" alt="" width={120} height={100}></Image> */}
               </div>
               <div className="font-semibold text-[30px] hidden lg:block">
-                <h2 className="text-green-500">
-                  PURNESH.
-                </h2>
+                <h2 className="text-green-500">PURNESH.</h2>
               </div>
             </div>
 
             <div className="md:ml-4 lg:hidden flex justify-center items-center ">
-              {/* <Image
-                src="/Logo.jpg"
-                alt=""
-                width={90}
-                height={90}
-                className="pb-4 pl-6 cursor-pointer w-full"
-              ></Image> */}
               <div className="font-semibold text-[30px] pb-4 pl-6">
-                <h2 className="text-green-500">
-                  PURNESH.
-                </h2>
+                <h2 className="text-green-500">PURNESH.</h2>
               </div>
             </div>
 
