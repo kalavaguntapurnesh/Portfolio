@@ -8,7 +8,7 @@ const Projects = () => {
         <div className="w-full px-4 mx-auto max-w-[1400px] text-white">
           <div className="mt-4 mb-8 flex flex-col flex-wrap items-center">
             <div className="group transition duration-1000 hover:text-gray-300">
-              <h1 className="text-center font-semibold tracking-normal leading-relaxed text-3xl">
+              <h1 className="text-center font-bold tracking-normal leading-relaxed text-3xl">
                 Projects Developed
               </h1>
               <div className="bg-green-500 h-[3px] w-full group-hover:w-0 transition-all duration-500"></div>
