@@ -9,18 +9,18 @@ const Contact = () => {
           <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
             <div>
               <div className="flex flex-col space-y-4 mt-8">
-                <div>
+                <div className="flex md:justify-start justify-center">
                   <h1 className="uppercase font-bold text-green-500 tracking-wide">
                     get in touch
                   </h1>
                 </div>
-                <div>
+                <div className="flex md:justify-start justify-center md:text-start text-center">
                   <h1 className="lg:text-5xl text-4xl font-bold tracking-normal md:leading-relaxed leading-normal text-white">
                     Motivated to make a better future, connect to me through
                     this form.
                   </h1>
                 </div>
-                <div>
+                <div className="flex md:justify-start justify-center md:text-start text-center">
                   <h1 className="leading-relaxed tracking-wide font-medium lg:text-[20px] text-[16px] text-white ">
                     Taking a step for a better and prosperous future is what
                     makes a human unique from others!!! Let's grow together in
@@ -89,7 +89,7 @@ const Contact = () => {
                   <div className=" md:w-8/12 w-full flex md:justify-start justify-center items-center">
                     <a
                       href="#home"
-                      className="hover:shadow-form rounded-md bg-green-500 transition duration-1000 ease-in-out hover:bg-[#10C0A2] py-3 px-12 text-base font-semibold text-black outline-none"
+                      className="hover:shadow-form rounded-3xl bg-green-500 transition duration-1000 ease-in-out hover:bg-[#10C0A2] py-3 px-12 text-base font-semibold text-black outline-none"
                     >
                       Submit
                     </a>

@@ -13,6 +13,12 @@ const Footer = () => {
       <div className="w-full">
         <div className="w-full px-4 mx-auto max-w-[1400px] text-white">
           <div className="flex flex-col flex-wrap items-center mt-2 mb-2">
+            <div className="group transition duration-1000 hover:text-gray-300">
+              <h1 className="text-center font-bold tracking-normal leading-relaxed text-3xl">
+                Connect with me here.
+              </h1>
+              <div className="bg-green-500 h-[3px] w-full group-hover:w-0 transition-all duration-500"></div>
+            </div>
           </div>
           <div className="w-full mx-auto px-4 max-w-[900px] mt-8 mb-6">
             <div className="grid grid-cols-5">
