@@ -16,7 +16,6 @@ export default function Home() {
       <Hero />
       <Record />
       <ScrollToTop />
-      {/* <Services /> */}
       <Skills />
       <Timeline />
       <Projects />
