@@ -2,11 +2,11 @@ import React from "react";
 
 const Timeline = () => {
   return (
-    <div className="relative pt-8 pb-12" id="timeline">
+    <div className="relative pt-8 pb-12 bg-white dark:bg-[#000300]" id="timeline">
       <div className="w-full">
         <div className="w-full px-4 mx-auto max-w-[1400px] text-white">
           <div className="mt-4 mb-10 flex flex-col flex-wrap items-center">
-            <div className="group transition duration-1000 hover:text-gray-300">
+            <div className="group transition duration-1000 dark:text-white text-headingColor">
               <h1 className="text-center font-bold tracking-normal leading-relaxed text-3xl">
                 Education & Experience
               </h1>
@@ -38,7 +38,7 @@ const Timeline = () => {
                     May 2017
                   </time>
                 </div>
-                <div className="text-slate-500">
+                <div className="text-sideHeading">
                   Completed Secondary Education with CGPA of{" "}
                   <span className="font-semibold">10/10</span> which made me a
                   state topper for the year 2017.
@@ -70,7 +70,7 @@ const Timeline = () => {
                     April 2019
                   </time>
                 </div>
-                <div className="text-slate-500">
+                <div className="text-sideHeading">
                   Completed my high school diploma with{" "}
                   <span className="font-semibold">98.8%</span> of major in
                   Physics, Chemistry and Mathematics (my favourite subject 😉)
@@ -102,7 +102,7 @@ const Timeline = () => {
                     May 2023
                   </time>
                 </div>
-                <div className="text-slate-500">
+                <div className="text-sideHeading">
                   Graduated my bachelor's with{" "}
                   <span className="font-semibold">86%</span> and learnt on how
                   to deal complex things in life along with my studies.
@@ -134,7 +134,7 @@ const Timeline = () => {
                     Feb 2023 - May 2023
                   </time>
                 </div>
-                <div className="text-slate-500">
+                <div className="text-sideHeading">
                   Worked as an intern in the field of full stack development and
                   learnt variety of tech stack like TailwindCSS, NodeJS, React
                   and Spring.
@@ -143,7 +143,7 @@ const Timeline = () => {
             </div>
 
             <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
-              <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-green-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+              <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-white group-[.is-active]:bg-green-500 text-green-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
                 <svg
                   className="fill-current"
                   xmlns="http://www.w3.org/2000/svg"
@@ -163,7 +163,7 @@ const Timeline = () => {
                     June 2023 - Present
                   </time>
                 </div>
-                <div className="text-slate-500">
+                <div className="text-sideHeading">
                   Currently working as a full stack developer dealing with web
                   and app applications using NextJS, React and React Native.
                 </div>

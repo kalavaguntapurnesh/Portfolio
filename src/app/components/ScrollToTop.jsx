@@ -36,7 +36,7 @@ const ScrollToTop = () => {
         onClick={scrollToTop}
         className={classNames(
           isVisible ? "opacity-100" : "opacity-0",
-          "bg-green-500 hover:bg-colorOne transition duration-1000 ease-in-out inline-flex items-center rounded-md md:p-3 p-2 text-black shadow-sm "
+          "bg-green-500 hover:bg-colorOne transition duration-1000 ease-in-out inline-flex items-center lg:rounded-full rounded-md md:p-3 p-2 text-black shadow-sm "
         )}
       >
         <IoMdArrowRoundUp className="h-6 w-6" aria-hidden="true" />
