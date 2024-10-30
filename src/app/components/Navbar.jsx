@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import { RiMenu3Fill } from "react-icons/ri";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -93,6 +96,28 @@ const Navbar = () => {
                   <a href="#contact">Contact</a>
                 </li>
               </ul>
+
+              <div className="px-4">
+                <h1 className="p-4 text-xl font-semibold text-white">Follow me on</h1>
+                <div className="p-4">
+                  <div className="grid grid-cols-4">
+                    <a href="https://www.linkedin.com/in/purnesh-k-465aba228/">
+                      <FaLinkedinIn className="w-6 h-6 text-white duration-1000 hover:text-mainColor ease-in-out" />
+                    </a>
+                    <a href="https://twitter.com/Purneshstalwart">
+                      <FaXTwitter className="w-6 h-6 text-white duration-1000 hover:text-mainColor ease-in-out" />
+                    </a>
+                    <a href="https://www.instagram.com/being_purnesh?igsh=MXg3ZTR2ZjVyeG1rdA==">
+                      {" "}
+                      <FaInstagram className="w-6 h-6 text-white duration-1000 hover:text-mainColor ease-in-out" />
+                    </a>
+                    <a href="https://github.com/kalavaguntapurnesh">
+                      {" "}
+                      <FaGithub className="w-6 h-6 text-white duration-1000 hover:text-mainColor ease-in-out" />
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
