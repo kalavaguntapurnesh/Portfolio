@@ -11,7 +11,7 @@ const Record = () => {
       onEnter={() => setCounterOn(true)}
       onExit={() => setCounterOn(false)}
     >
-      <div className="pt-16 pb-4">
+      <div className="pt-16 pb-4 bg-white dark:bg-[#000300]">
         <div className="relative">
           <div className="w-full">
             <div className="w-full px-4 mx-auto max-w-[1400px]">
@@ -33,7 +33,7 @@ const Record = () => {
                         </h1>
                       </div>
                       <div className=" h-20 flex justify-center items-center">
-                        <h1 className="font-bold tracking-wide leading-relaxed md:text-base text-sm text-white">
+                        <h1 className="font-bold tracking-wide leading-relaxed md:text-base text-sm dark:text-white text-headingColor">
                           Projects developed across various tech stack.
                         </h1>
                       </div>
@@ -53,7 +53,7 @@ const Record = () => {
                         </h1>
                       </div>
                       <div className=" h-20 flex justify-center items-center">
-                        <h1 className="font-bold tracking-wide leading-relaxed md:text-base text-sm text-white">
+                        <h1 className="font-bold tracking-wide leading-relaxed md:text-base text-sm dark:text-white text-headingColor">
                           Satisfied Clients and users across the globe.
                         </h1>
                       </div>
@@ -138,7 +138,7 @@ const Record = () => {
                             <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
                           </svg>
                         </div>
-                        <h1 className="font-bold tracking-wide leading-relaxed md:text-base text-sm text-white">
+                        <h1 className="font-bold tracking-wide leading-relaxed md:text-base text-sm dark:text-white text-headingColor">
                           Excellent Ratings From Clients and Real time Users.
                         </h1>
                       </div>
@@ -158,7 +158,7 @@ const Record = () => {
                         </h1>
                       </div>
                       <div className=" h-20 flex justify-center items-center">
-                        <h1 className="font-bold tracking-wide leading-relaxed md:text-base text-sm text-white">
+                        <h1 className="font-bold tracking-wide leading-relaxed md:text-base text-sm dark:text-white text-headingColor">
                           Real-time problems and bugs solved over an year.
                         </h1>
                       </div>

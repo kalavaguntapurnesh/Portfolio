@@ -3,11 +3,11 @@ import Image from "next/image";
 
 const Skills = () => {
   return (
-    <div className="relative pt-8 pb-16" id="skills">
+    <div className="relative pt-8 pb-16 bg-white dark:bg-[#000300]" id="skills">
       <div className="w-full">
         <div className="w-full px-4 mx-auto max-w-[1400px] text-white">
           <div className="mt-4 mb-8 flex flex-col flex-wrap items-center">
-            <div className="group transition duration-1000 hover:text-gray-300">
+            <div className="group transition duration-1000 text-headingColor dark:text-white ">
               <h1 className="text-center font-bold tracking-normal leading-relaxed text-3xl">
                 Skills & Tools Set
               </h1>
@@ -26,7 +26,9 @@ const Skills = () => {
                 ></Image>
               </div>
               <div className="my-1">
-                <h1 className="font-medium text-md tracking-wide">React.js</h1>
+                <h1 className="font-semibold text-md tracking-wide text-headingColor dark:text-white ">
+                  React.js
+                </h1>
               </div>
             </div>
             <div className="flex flex-col justify-center items-center rounded-md ">
@@ -40,7 +42,9 @@ const Skills = () => {
                 ></Image>
               </div>
               <div className="my-1">
-                <h1 className="font-medium text-md tracking-wide">Next.js</h1>
+                <h1 className="font-semibold text-md tracking-wide text-headingColor dark:text-white ">
+                  Next.js
+                </h1>
               </div>
             </div>
             <div className="flex flex-col justify-center items-center rounded-md ">
@@ -54,7 +58,9 @@ const Skills = () => {
                 ></Image>
               </div>
               <div className="my-1">
-                <h1 className="font-medium text-md tracking-wide">Typescript</h1>
+                <h1 className="font-semibold text-md tracking-wide text-headingColor dark:text-white ">
+                  Typescript
+                </h1>
               </div>
             </div>
             <div className="flex flex-col justify-center items-center rounded-md ">
@@ -68,7 +74,9 @@ const Skills = () => {
                 ></Image>
               </div>
               <div className="my-1">
-                <h1 className="font-medium text-md tracking-wide">Flutter</h1>
+                <h1 className="font-semibold text-md tracking-wide text-headingColor dark:text-white ">
+                  Flutter
+                </h1>
               </div>
             </div>
             <div className="flex flex-col justify-center items-center rounded-md ">
@@ -82,7 +90,7 @@ const Skills = () => {
                 ></Image>
               </div>
               <div className="my-1">
-                <h1 className="font-medium text-md tracking-wide">
+                <h1 className="font-semibold text-md tracking-wide text-headingColor dark:text-white ">
                   Tailwind CSS
                 </h1>
               </div>
@@ -98,7 +106,9 @@ const Skills = () => {
                 ></Image>
               </div>
               <div className="my-1">
-                <h1 className="font-medium text-md tracking-wide">Redux</h1>
+                <h1 className="font-semibold text-md tracking-wide text-headingColor dark:text-white ">
+                  Redux
+                </h1>
               </div>
             </div>
             <div className="flex flex-col justify-center items-center rounded-md ">
@@ -112,7 +122,7 @@ const Skills = () => {
                 ></Image>
               </div>
               <div className="my-1">
-                <h1 className="font-medium text-md tracking-wide">
+                <h1 className="font-semibold text-md tracking-wide text-headingColor dark:text-white ">
                   Javascript
                 </h1>
               </div>
@@ -128,7 +138,9 @@ const Skills = () => {
                 ></Image>
               </div>
               <div className="my-1">
-                <h1 className="font-medium text-md tracking-wide">Node</h1>
+                <h1 className="font-semibold text-md tracking-wide text-headingColor dark:text-white ">
+                  Node.js
+                </h1>
               </div>
             </div>
             <div className="flex flex-col justify-center items-center rounded-md ">
@@ -142,7 +154,9 @@ const Skills = () => {
                 ></Image>
               </div>
               <div className="my-1">
-                <h1 className="font-medium text-md tracking-wide">Mongo DB</h1>
+                <h1 className="font-semibold text-md tracking-wide text-headingColor dark:text-white ">
+                  Mongo DB
+                </h1>
               </div>
             </div>
             <div className="flex flex-col justify-center items-center rounded-md ">
@@ -156,7 +170,9 @@ const Skills = () => {
                 ></Image>
               </div>
               <div className="my-1">
-                <h1 className="font-medium text-md tracking-wide">AWS Cloud</h1>
+                <h1 className="font-semibold text-md tracking-wide text-headingColor dark:text-white ">
+                  AWS Cloud
+                </h1>
               </div>
             </div>
             <div className="flex flex-col justify-center items-center rounded-md">
@@ -170,7 +186,9 @@ const Skills = () => {
                 ></Image>
               </div>
               <div className="my-1">
-                <h1 className="font-medium text-md tracking-wide">Docker</h1>
+                <h1 className="font-semibold text-md tracking-wide text-headingColor dark:text-white ">
+                  Docker
+                </h1>
               </div>
             </div>
             <div className="flex flex-col justify-center items-center rounded-md ">
@@ -184,7 +202,9 @@ const Skills = () => {
                 ></Image>
               </div>
               <div className="my-1">
-                <h1 className="font-medium text-md tracking-wide">Spring</h1>
+                <h1 className="font-semibold text-md tracking-wide text-headingColor dark:text-white ">
+                  Spring
+                </h1>
               </div>
             </div>
             <div className="flex flex-col justify-center items-center rounded-md ">
@@ -198,7 +218,9 @@ const Skills = () => {
                 ></Image>
               </div>
               <div className="my-1">
-                <h1 className="font-medium text-md tracking-wide">MySQL</h1>
+                <h1 className="font-semibold text-md tracking-wide text-headingColor dark:text-white ">
+                  MySQL
+                </h1>
               </div>
             </div>
             <div className="flex flex-col justify-center items-center rounded-md ">
@@ -212,11 +234,12 @@ const Skills = () => {
                 ></Image>
               </div>
               <div className="my-1">
-                <h1 className="font-medium text-md tracking-wide">Java</h1>
+                <h1 className="font-semibold text-md tracking-wide text-headingColor dark:text-white ">
+                  Java
+                </h1>
               </div>
             </div>
 
-          
             <div className="flex flex-col justify-center items-center rounded-md">
               <div className="my-1">
                 <Image
@@ -228,7 +251,9 @@ const Skills = () => {
                 ></Image>
               </div>
               <div className="my-1">
-                <h1 className="font-medium text-md tracking-wide">Figma</h1>
+                <h1 className="font-semibold text-md tracking-wide text-headingColor dark:text-white ">
+                  Figma
+                </h1>
               </div>
             </div>
           </div>

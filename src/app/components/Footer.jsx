@@ -9,11 +9,11 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="relative pt-8 pb-6 ">
+    <div className="relative pt-8 pb-6 bg-white dark:bg-[#000300]">
       <div className="w-full">
         <div className="w-full px-4 mx-auto max-w-[1400px] text-white">
           <div className="flex flex-col flex-wrap items-center mt-2 mb-2">
-            <div className="group transition duration-1000 hover:text-gray-300">
+            <div className="group transition duration-1000 text-headingColor dark:text-white ">
               <h1 className="text-center font-bold tracking-normal leading-relaxed text-3xl">
                 Connect with me here.
               </h1>
@@ -34,7 +34,7 @@ const Footer = () => {
               </div>
               <div className="flex justify-center items-center">
                 <a href="https://twitter.com/Purneshstalwart">
-                  <FaXTwitter className="w-9 h-7 text-white" />
+                  <FaXTwitter className="w-9 h-7 text-headingColor dark:text-white " />
                 </a>
               </div>
               <div className="flex justify-center items-center text-violet-500">
@@ -61,7 +61,7 @@ const Footer = () => {
           </div>
 
           <div className="mt-4">
-            <h1 className="text-center tracking-normal leading-relaxed text-xs">
+            <h1 className="text-center text-headingColor dark:text-white tracking-normal leading-relaxed text-xs">
               Copyright © 2024 Purnesh Kalavagunta. All rights reserved.
             </h1>
           </div>
