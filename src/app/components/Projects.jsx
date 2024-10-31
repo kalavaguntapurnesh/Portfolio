@@ -16,8 +16,8 @@ const Projects = () => {
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             <a
-              href="https://mac-global-services.vercel.app/"
-              className="flex flex-col justify-center items-center "
+              href="https://mac-global.vercel.app/"
+              className="flex flex-col justify-center items-center border-[0.5px]  rounded p-3"
             >
               <div className="w-[90%] md:w-full">
                 <Image
@@ -39,7 +39,7 @@ const Projects = () => {
             </a>
             <a
               href="https://securenetworkguardsolutions.com/"
-              className="flex flex-col justify-center items-center "
+                  className="flex flex-col justify-center items-center border-[0.5px]  rounded p-3"
             >
               <div className="w-[90%] md:w-full">
                 <Image
@@ -63,7 +63,7 @@ const Projects = () => {
 
             <a
               href="https://clouddatanetworks.com/"
-              className="flex flex-col justify-center items-center "
+                   className="flex flex-col justify-center items-center border-[0.5px]  rounded p-3"
             >
               <div className="w-[90%] md:w-full">
                 <Image
@@ -85,7 +85,7 @@ const Projects = () => {
             </a>
             <a
               href="https://alchemindssolutions.com/"
-              className="flex flex-col justify-center items-center "
+            className="flex flex-col justify-center items-center border-[0.5px]  rounded p-3"
             >
               <div className="w-[90%] md:w-full">
                 <Image
@@ -107,8 +107,8 @@ const Projects = () => {
               </div>
             </a>
             <a
-              href="https://calendly-sigma.vercel.app/"
-              className="flex flex-col justify-center items-center"
+              href="https://syndeo-frontendtwo.vercel.app/"
+             className="flex flex-col justify-center items-center border-[0.5px]  rounded p-3"
             >
               <div className="w-[90%] md:w-full">
                 <Image
@@ -130,7 +130,7 @@ const Projects = () => {
             </a>
             <a
               href="https://edu-kare.vercel.app/"
-              className="flex flex-col justify-center items-center "
+               className="flex flex-col justify-center items-center border-[0.5px]  rounded p-3"
             >
               <div className="w-[90%] md:w-full">
                 <Image

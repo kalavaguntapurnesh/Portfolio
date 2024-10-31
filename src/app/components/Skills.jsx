@@ -31,10 +31,26 @@ const Skills = () => {
                 </h1>
               </div>
             </div>
-            <div className="flex flex-col justify-center items-center rounded-md ">
+            <div className="dark:flex hidden flex-col justify-center items-center rounded-md ">
               <div className="my-1">
                 <Image
                   src="/next-js.svg"
+                  alt=""
+                  width={27}
+                  height={52}
+                  className="h-16 w-16"
+                ></Image>
+              </div>
+              <div className="my-1">
+                <h1 className="font-semibold text-md tracking-wide text-headingColor dark:text-white ">
+                  Next.js
+                </h1>
+              </div>
+            </div>
+            <div className="flex flex-col justify-center items-center rounded-md dark:hidden">
+              <div className="my-1">
+                <Image
+                  src="/next.svg"
                   alt=""
                   width={27}
                   height={52}

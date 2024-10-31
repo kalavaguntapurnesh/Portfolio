@@ -4,7 +4,10 @@ import HeroOne from "../../../public/lotties/HeroOne.json";
 
 const Hero = () => {
   return (
-    <div className="w-full pt-28 pb-8 h-auto bg-white dark:bg-[#000300]" id="home">
+    <div
+      className="w-full pt-28 pb-8 h-auto bg-white dark:bg-[#000300]"
+      id="home"
+    >
       <div className="max-w-[1400px] m-auto grid lg:grid-cols-2 grid-cols-1">
         <div className="flex flex-col gap-4 w-full">
           <div className=" flex items-center lg:justify-start justify-center mt-4 mx-3">
@@ -32,8 +35,8 @@ const Hero = () => {
           <div className="flex items-center lg:justify-start justify-center md:mx-5 lg:mt-1 mt-2 lg:mb-0 mb-5">
             <a
               href="#contact"
-              className="bg-green-500 font-semibold outline-none
-            rounded-3xl hover:shadow-form transition duration-1000 ease-in-out hover:bg-[#10C0A2] text-black px-8 py-2.5 text-center"
+              className="bg-green-500 dark:text-black outline-none
+            rounded-3xl hover:shadow-form transition duration-1000 ease-in-out hover:bg-[#10C0A2] text-white px-8 py-2.5 text-center"
             >
               Contact Me
             </a>

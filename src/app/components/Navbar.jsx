@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className="w-full mx-auto max-w-[1400px]">
         <div className="justify-center w-full">
           <div
-            className="text-black flex justify-between md:shadow-none shadow h-20 w-full  md:top-0 top-0
+            className="text-black flex justify-between md:shadow-none shadow h-20 w-full md:top-0 top-0
      dark:bg-[#000300] bg-white max-w-[1400px] mx-auto"
           >
             <div className="lg:flex lg:flex-row lg:justify-center lg:items-center hidden lg:gap-2">
@@ -50,11 +50,11 @@ const Navbar = () => {
                 <a href="#timeline">Experience</a>
                 <div className="bg-green-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
               </li>
-              <li className="lg:p-4 p-[11px] cursor-pointer font-medium">
+              <li className="lg:p-4 p-[11px] cursor-pointer ">
                 <a
                   href="#contact"
                   className="bg-green-500 duration-1000 ease-in-out transition hover:bg-[#10C0A2]
-        rounded-full text-white px-8 py-2.5 text-center"
+        rounded-full text-white dark:text-black px-8 py-2.5 text-center"
                 >
                   Contact{" "}
                 </a>
@@ -79,7 +79,7 @@ const Navbar = () => {
               className={
                 !nav
                   ? "md:hidden fixed left-[-100%] h-[75%] ease-in-out duration-1000 transition"
-                  : "md:hidden fixed left-0 top-0 w-[70%] border-r h-[75%] bg-white dark:bg-[#000300] ease-in-out duration-1000 rounded-b-lg z-10 shadow-xl "
+                  : "md:hidden fixed left-0 top-0 w-[70%] h-[75%] bg-white dark:bg-[#000300] ease-in-out duration-1000 z-10 shadow-xl rounded border-[0.5px]"
               }
             >
               <h1 className="w-full text-2xl text-green-500 font-bold m-4 cursor-pointer">
