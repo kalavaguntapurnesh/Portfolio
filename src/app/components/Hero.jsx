@@ -40,7 +40,7 @@ const Hero = () => {
 
           <div className="md:flex items-center lg:justify-start justify-center hidden">
             <a
-              href="/products"
+              href="#contact"
               className="bg-green-500 font-medium outline-none
                       rounded-full transition duration-1000 ease-in-out md:text-base text-sm text-white px-8 md:py-3 py-2 text-center"
             >
@@ -50,7 +50,7 @@ const Hero = () => {
 
           <div className="mx-8">
             <a
-              href="/products"
+              href="#contact"
               className="bg-green-500 dark:text-black font-medium outline-none md:hidden block
                       rounded-full hover:shadow-form transition duration-1000 ease-in-out text-base text-white px-8 py-2.5 text-center"
             >
