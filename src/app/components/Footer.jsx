@@ -28,7 +28,7 @@ const Footer = () => {
                 </a>
               </div>
               <div className="flex justify-center items-center text-cyan-500">
-                <a href="https://twitter.com/purneshkalavag">
+                <a href="https://www.facebook.com/profile.php?id=100084688968409">
                   <FaFacebookF className="md:w-9 md:h-7 w-7 h-7" />
                 </a>
               </div>
