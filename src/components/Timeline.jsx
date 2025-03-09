@@ -2,7 +2,7 @@ import React from "react";
 
 const Timeline = () => {
   return (
-    <div className="relative pt-8 pb-12 bg-white dark:bg-[#000300]" id="timeline">
+    <div className="relative pt-8 pb-12 bg-[#000300]" id="timeline">
       <div className="w-full">
         <div className="w-full px-4 mx-auto max-w-[1400px] text-white">
           <div className="mt-4 mb-10 flex flex-col flex-wrap items-center">
@@ -38,7 +38,7 @@ const Timeline = () => {
                     May 2017
                   </time>
                 </div>
-                <div className="text-sideHeading">
+                <div className="text-gray-600">
                   Completed Secondary Education with CGPA of{" "}
                   <span className="font-semibold">10/10</span> which made me a
                   state topper for the year 2017.
@@ -70,7 +70,7 @@ const Timeline = () => {
                     April 2019
                   </time>
                 </div>
-                <div className="text-sideHeading">
+                <div className="text-gray-600">
                   Completed my high school diploma with{" "}
                   <span className="font-semibold">98.8%</span> of major in
                   Physics, Chemistry and Mathematics (my favourite subject 😉)
@@ -102,7 +102,7 @@ const Timeline = () => {
                     May 2023
                   </time>
                 </div>
-                <div className="text-sideHeading">
+                <div className="text-gray-600">
                   Graduated my bachelor's with{" "}
                   <span className="font-semibold">86%</span> and learnt on how
                   to deal complex things in life along with my studies.
@@ -134,7 +134,7 @@ const Timeline = () => {
                     Feb 2023 - May 2023
                   </time>
                 </div>
-                <div className="text-sideHeading">
+                <div className="text-gray-600">
                   Worked as an intern in the field of full stack development and
                   learnt variety of tech stack like TailwindCSS, NodeJS, React
                   and Spring.
@@ -163,7 +163,7 @@ const Timeline = () => {
                     June 2023 - Present
                   </time>
                 </div>
-                <div className="text-sideHeading">
+                <div className="text-gray-600">
                   Currently working as a full stack developer dealing with web
                   and app applications using NextJS, React and React Native.
                 </div>

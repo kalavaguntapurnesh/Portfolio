@@ -1,13 +1,21 @@
 import React from "react";
-import Image from "next/image";
+import One from "../assets/One.png";
+import Two from "../assets/Two.png";
+import Three from "../assets/Three.png";
+import Four from "../assets/Four.png";
+import Five from "../assets/Five.png";
+import Six from "../assets/Six.png";
 
 const Projects = () => {
   return (
-    <div className="relative pt-8 md:pb-16 pb-4 bg-white dark:bg-[#000300]" id="projects">
+    <div
+      className="relative pt-8 md:pb-16 pb-4 bg-[#000300]"
+      id="projects"
+    >
       <div className="w-full">
         <div className="w-full px-4 mx-auto max-w-[1400px] text-white">
           <div className="mt-4 mb-8 flex flex-col flex-wrap items-center">
-            <div className="group transition duration-1000 dark:text-white text-headingColor">
+            <div className="group transition duration-1000 text-white text-headingColor">
               <h1 className="text-center font-bold tracking-normal leading-relaxed text-3xl">
                 Projects Developed
               </h1>
@@ -20,16 +28,16 @@ const Projects = () => {
               className="flex flex-col justify-center items-center dark:border-[0.1px] border-[1px]  rounded p-3"
             >
               <div className="w-[90%] md:w-full">
-                <Image
-                  src="/One.png"
+                <img
+                  src={One}
                   alt="Hello"
                   width={200}
                   height={200}
                   className="w-full rounded-t-lg"
-                ></Image>
+                ></img>
               </div>
               <div className="w-[90%] md:w-full mt-2">
-                <h1 className="text-lg font-bold dark:text-white text-headingColor">
+                <h1 className="text-lg font-bold text-white text-headingColor">
                   MAC Global Services Website
                 </h1>
                 <p className="text-md font-normal text-sideHeading">
@@ -39,19 +47,19 @@ const Projects = () => {
             </a>
             <a
               href="https://securenetworkguardsolutions.com/"
-             className="flex flex-col justify-center items-center dark:border-[0.1px] border-[1px]  rounded p-3"
+              className="flex flex-col justify-center items-center dark:border-[0.1px] border-[1px]  rounded p-3"
             >
               <div className="w-[90%] md:w-full">
-                <Image
-                  src="/Five.png"
+                <img
+                  src={Five}
                   alt="Hello"
                   width={200}
                   height={200}
                   className="w-full rounded-t-lg"
-                ></Image>
+                ></img>
               </div>
               <div className="w-[90%] md:w-full mt-2">
-                <h1 className="text-lg font-bold dark:text-white text-headingColor">
+                <h1 className="text-lg font-bold text-white text-headingColor">
                   Secure Network Guard Solutions Website
                 </h1>
                 <p className="text-md font-normal text-sideHeading">
@@ -63,19 +71,19 @@ const Projects = () => {
 
             <a
               href="https://clouddatanetworks.com/"
-             className="flex flex-col justify-center items-center dark:border-[0.1px] border-[1px]  rounded p-3"
+              className="flex flex-col justify-center items-center dark:border-[0.1px] border-[1px]  rounded p-3"
             >
               <div className="w-[90%] md:w-full">
-                <Image
-                  src="/Three.png"
+                <img
+                  src={Three}
                   alt="Hello"
                   width={200}
                   height={200}
                   className="w-full rounded-t-lg"
-                ></Image>
+                ></img>
               </div>
               <div className="w-[90%] md:w-full mt-2">
-                <h1 className="text-lg font-bold dark:text-white text-headingColor">
+                <h1 className="text-lg font-bold text-white text-headingColor">
                   Cloud Data Networks Website
                 </h1>
                 <p className="text-md font-normal text-sideHeading">
@@ -85,19 +93,19 @@ const Projects = () => {
             </a>
             <a
               href="https://alchemindssolutions.com/"
-           className="flex flex-col justify-center items-center dark:border-[0.1px] border-[1px]  rounded p-3"
+              className="flex flex-col justify-center items-center dark:border-[0.1px] border-[1px]  rounded p-3"
             >
               <div className="w-[90%] md:w-full">
-                <Image
-                  src="/Four.png"
+                <img
+                  src={Four}
                   alt="Hello"
                   width={200}
                   height={200}
                   className="w-full rounded-t-lg"
-                ></Image>
+                ></img>
               </div>
               <div className="w-[90%] md:w-full mt-2">
-                <h1 className="text-lg font-bold dark:text-white text-headingColor">
+                <h1 className="text-lg font-bold text-white text-headingColor">
                   Alcheminds Solutions Website
                 </h1>
                 <p className="text-md font-normal text-sideHeading">
@@ -108,19 +116,19 @@ const Projects = () => {
             </a>
             <a
               href="https://syndeo-frontendtwo.vercel.app/"
-             className="flex flex-col justify-center items-center dark:border-[0.1px] border-[1px]  rounded p-3"
+              className="flex flex-col justify-center items-center dark:border-[0.1px] border-[1px]  rounded p-3"
             >
               <div className="w-[90%] md:w-full">
-                <Image
-                  src="/Two.png"
+                <img
+                  src={Two}
                   alt="Hello"
                   width={200}
                   height={200}
                   className="w-full rounded-t-lg"
-                ></Image>
+                ></img>
               </div>
               <div className="w-[90%] md:w-full mt-2">
-                <h1 className="text-lg font-bold dark:text-white text-headingColor">
+                <h1 className="text-lg font-bold text-white text-headingColor">
                   Appointment Scheduling Website
                 </h1>
                 <p className="text-md font-normal text-sideHeading">
@@ -130,19 +138,19 @@ const Projects = () => {
             </a>
             <a
               href="https://edu-kare.vercel.app/"
-               className="flex flex-col justify-center items-center dark:border-[0.1px] border-[1px]  rounded p-3"
+              className="flex flex-col justify-center items-center dark:border-[0.1px] border-[1px]  rounded p-3"
             >
               <div className="w-[90%] md:w-full">
-                <Image
-                  src="/Six.png"
+                <img
+                  src={Six}
                   alt="Hello"
                   width={200}
                   height={200}
                   className="w-full rounded-t-lg"
-                ></Image>
+                ></img>
               </div>
               <div className="w-[90%] md:w-full mt-2">
-                <h1 className="text-lg font-bold dark:text-white text-headingColor">
+                <h1 className="text-lg font-bold text-white text-headingColor">
                   Edukare Education Website
                 </h1>
                 <p className="text-md font-normal text-sideHeading">

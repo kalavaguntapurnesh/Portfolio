@@ -1,13 +1,12 @@
 import React from "react";
-import Image from "next/image";
 
 const Skills = () => {
   return (
-    <div className="relative pt-8 pb-16 bg-white dark:bg-[#000300]" id="skills">
+    <div className="relative pt-8 pb-16 bg-[#000300]" id="skills">
       <div className="w-full">
         <div className="w-full px-4 mx-auto max-w-[1400px] text-white">
           <div className="mt-4 mb-8 flex flex-col flex-wrap items-center">
-            <div className="group transition duration-1000 text-headingColor dark:text-white ">
+            <div className="group transition duration-1000 text-white">
               <h1 className="text-center font-bold tracking-normal leading-relaxed text-3xl">
                 Skills & Tools Set
               </h1>
@@ -17,240 +16,240 @@ const Skills = () => {
           <div className="grid md:grid-cols-5 grid-cols-3 gap-6">
             <div className="flex flex-col justify-center items-center rounded-md">
               <div className="my-1">
-                <Image
+                <img
                   src="/react.svg"
                   alt=""
                   width={27}
                   height={52}
                   className="h-16 w-16"
-                ></Image>
+                ></img>
               </div>
               <div className="my-1">
-                <h1 className="font-semibold text-md tracking-wide text-headingColor dark:text-white ">
+                <h1 className="font-semibold text-md tracking-wide text-white">
                   React.js
                 </h1>
               </div>
             </div>
             <div className="dark:flex hidden flex-col justify-center items-center rounded-md ">
               <div className="my-1">
-                <Image
+                <img
                   src="/next-js.svg"
                   alt=""
                   width={27}
                   height={52}
                   className="h-16 w-16"
-                ></Image>
+                ></img>
               </div>
               <div className="my-1">
-                <h1 className="font-semibold text-md tracking-wide text-headingColor dark:text-white ">
+                <h1 className="font-semibold text-md tracking-wide text-white">
                   Next.js
                 </h1>
               </div>
             </div>
             <div className="flex flex-col justify-center items-center rounded-md dark:hidden">
               <div className="my-1">
-                <Image
+                <img
                   src="/next.svg"
                   alt=""
                   width={27}
                   height={52}
                   className="h-16 w-16"
-                ></Image>
+                ></img>
               </div>
               <div className="my-1">
-                <h1 className="font-semibold text-md tracking-wide text-headingColor dark:text-white ">
+                <h1 className="font-semibold text-md tracking-wide text-white">
                   Next.js
                 </h1>
               </div>
             </div>
             <div className="flex flex-col justify-center items-center rounded-md ">
               <div className="my-1">
-                <Image
+                <img
                   src="/ts.svg"
                   alt=""
                   width={27}
                   height={52}
                   className="h-16 w-16"
-                ></Image>
+                ></img>
               </div>
               <div className="my-1">
-                <h1 className="font-semibold text-md tracking-wide text-headingColor dark:text-white ">
+                <h1 className="font-semibold text-md tracking-wide text-white">
                   Typescript
                 </h1>
               </div>
             </div>
             <div className="flex flex-col justify-center items-center rounded-md ">
               <div className="my-1">
-                <Image
+                <img
                   src="/jwt.svg"
                   alt=""
                   width={27}
                   height={52}
                   className="h-16 w-16"
-                ></Image>
+                ></img>
               </div>
               <div className="my-1">
-                <h1 className="font-semibold text-md tracking-wide text-headingColor dark:text-white ">
+                <h1 className="font-semibold text-md tracking-wide text-white">
                   Flutter
                 </h1>
               </div>
             </div>
             <div className="flex flex-col justify-center items-center rounded-md ">
               <div className="my-1">
-                <Image
+                <img
                   src="/Tailwind.svg"
                   alt=""
                   width={27}
                   height={52}
                   className="h-16 w-16"
-                ></Image>
+                ></img>
               </div>
               <div className="my-1">
-                <h1 className="font-semibold text-md tracking-wide text-headingColor dark:text-white ">
+                <h1 className="font-semibold text-md tracking-wide text-white">
                   Tailwind CSS
                 </h1>
               </div>
             </div>
             <div className="flex flex-col justify-center items-center rounded-md ">
               <div className="my-1">
-                <Image
+                <img
                   src="/redux.svg"
                   alt=""
                   width={27}
                   height={52}
                   className="h-16 w-16"
-                ></Image>
+                ></img>
               </div>
               <div className="my-1">
-                <h1 className="font-semibold text-md tracking-wide text-headingColor dark:text-white ">
+                <h1 className="font-semibold text-md tracking-wide text-white">
                   Redux
                 </h1>
               </div>
             </div>
             <div className="flex flex-col justify-center items-center rounded-md ">
               <div className="my-1">
-                <Image
+                <img
                   src="/JS.svg"
                   alt=""
                   width={27}
                   height={52}
                   className="h-16 w-16"
-                ></Image>
+                ></img>
               </div>
               <div className="my-1">
-                <h1 className="font-semibold text-md tracking-wide text-headingColor dark:text-white ">
+                <h1 className="font-semibold text-md tracking-wide text-white">
                   Javascript
                 </h1>
               </div>
             </div>
             <div className="flex flex-col justify-center items-center rounded-md ">
               <div className="my-1">
-                <Image
+                <img
                   src="/Node.svg"
                   alt=""
                   width={27}
                   height={52}
                   className="h-16 w-16"
-                ></Image>
+                ></img>
               </div>
               <div className="my-1">
-                <h1 className="font-semibold text-md tracking-wide text-headingColor dark:text-white ">
+                <h1 className="font-semibold text-md tracking-wide text-white">
                   Node.js
                 </h1>
               </div>
             </div>
             <div className="flex flex-col justify-center items-center rounded-md ">
               <div className="my-1">
-                <Image
+                <img
                   src="/Mongo.svg"
                   alt=""
                   width={27}
                   height={52}
                   className="h-16 w-16"
-                ></Image>
+                ></img>
               </div>
               <div className="my-1">
-                <h1 className="font-semibold text-md tracking-wide text-headingColor dark:text-white ">
+                <h1 className="font-semibold text-md tracking-wide text-white">
                   Mongo DB
                 </h1>
               </div>
             </div>
             <div className="flex flex-col justify-center items-center rounded-md ">
               <div className="my-1">
-                <Image
+                <img
                   src="/HTML.svg"
                   alt=""
                   width={27}
                   height={52}
                   className="h-16 w-16"
-                ></Image>
+                ></img>
               </div>
               <div className="my-1">
-                <h1 className="font-semibold text-md tracking-wide text-headingColor dark:text-white ">
+                <h1 className="font-semibold text-md tracking-wide text-white">
                   AWS Cloud
                 </h1>
               </div>
             </div>
             <div className="flex flex-col justify-center items-center rounded-md">
               <div className="my-1">
-                <Image
+                <img
                   src="/CSS.svg"
                   alt=""
                   width={27}
                   height={52}
                   className="h-16 w-16"
-                ></Image>
+                ></img>
               </div>
               <div className="my-1">
-                <h1 className="font-semibold text-md tracking-wide text-headingColor dark:text-white ">
+                <h1 className="font-semibold text-md tracking-wide text-white">
                   Docker
                 </h1>
               </div>
             </div>
             <div className="flex flex-col justify-center items-center rounded-md ">
               <div className="my-1">
-                <Image
+                <img
                   src="/Spring.svg"
                   alt=""
                   width={27}
                   height={52}
                   className="h-16 w-16"
-                ></Image>
+                ></img>
               </div>
               <div className="my-1">
-                <h1 className="font-semibold text-md tracking-wide text-headingColor dark:text-white ">
+                <h1 className="font-semibold text-md tracking-wide text-white">
                   Spring
                 </h1>
               </div>
             </div>
             <div className="flex flex-col justify-center items-center rounded-md ">
               <div className="my-1">
-                <Image
+                <img
                   src="/Mysql.svg"
                   alt=""
                   width={27}
                   height={52}
                   className="h-16 w-16"
-                ></Image>
+                ></img>
               </div>
               <div className="my-1">
-                <h1 className="font-semibold text-md tracking-wide text-headingColor dark:text-white ">
+                <h1 className="font-semibold text-md tracking-wide text-white">
                   MySQL
                 </h1>
               </div>
             </div>
             <div className="flex flex-col justify-center items-center rounded-md ">
               <div className="my-1">
-                <Image
+                <img
                   src="/Java.svg"
                   alt=""
                   width={27}
                   height={52}
                   className="h-16 w-16"
-                ></Image>
+                ></img>
               </div>
               <div className="my-1">
-                <h1 className="font-semibold text-md tracking-wide text-headingColor dark:text-white ">
+                <h1 className="font-semibold text-md tracking-wide text-white">
                   Java
                 </h1>
               </div>
@@ -258,16 +257,16 @@ const Skills = () => {
 
             <div className="flex flex-col justify-center items-center rounded-md">
               <div className="my-1">
-                <Image
+                <img
                   src="/Figma.svg"
                   alt=""
                   width={27}
                   height={52}
                   className="h-16 w-16"
-                ></Image>
+                ></img>
               </div>
               <div className="my-1">
-                <h1 className="font-semibold text-md tracking-wide text-headingColor dark:text-white ">
+                <h1 className="font-semibold text-md tracking-wide text-white">
                   Figma
                 </h1>
               </div>

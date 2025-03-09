@@ -1,9 +1,11 @@
 import React from "react";
-import Image from "next/image";
 
 const Contact = () => {
   return (
-    <div className="relative md:pt-16 pt-8 pb-6 bg-white dark:bg-[#000300]" id="contact">
+    <div
+      className="relative md:pt-16 pt-8 pb-6 bg-[#000300]"
+      id="contact"
+    >
       <div className="w-full">
         <div className="w-full px-4 mx-auto max-w-[1400px]">
           <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
@@ -15,13 +17,13 @@ const Contact = () => {
                   </h1>
                 </div>
                 <div className="flex md:justify-start justify-center md:text-start text-center">
-                  <h1 className="lg:text-5xl text-4xl font-bold tracking-normal md:leading-relaxed leading-normal dark:text-white text-headingColor">
+                  <h1 className="lg:text-5xl text-4xl font-bold tracking-normal  leading-normal text-white text-headingColor">
                     Motivated to make a better future, connect to me through
                     this form.
                   </h1>
                 </div>
                 <div className="flex md:justify-start justify-center md:text-start text-center">
-                  <h1 className="leading-relaxed tracking-wide font-medium lg:text-[20px] text-[16px] dark:text-white text-sideHeading">
+                  <h1 className="leading-relaxed tracking-wide font-medium lg:text-[20px] text-[16px] text-white text-sideHeading">
                     Taking a step for a better and prosperous future is what
                     makes a human unique from others!!! Let's grow together in
                     this technological world faster.
@@ -36,7 +38,7 @@ const Contact = () => {
                   <div className="mb-5 md:w-10/12 w-full">
                     <label
                       htmlFor="email"
-                      className="mb-3 block text-base font-medium text-headingColor dark:text-white"
+                      className="mb-3 block text-base font-medium text-headingColor text-white"
                     >
                       Full Name
                     </label>
@@ -53,7 +55,7 @@ const Contact = () => {
                   <div className="mb-5 md:w-10/12 w-full">
                     <label
                       htmlFor="email"
-                      className="mb-3 block text-base font-medium text-headingColor dark:text-white"
+                      className="mb-3 block text-base font-medium text-headingColor text-white"
                     >
                       Email Address
                     </label>
@@ -71,7 +73,7 @@ const Contact = () => {
                   <div className="mb-5 md:w-10/12 w-full">
                     <label
                       htmlFor="message"
-                      className="mb-3 block text-base font-medium text-headingColor dark:text-white"
+                      className="mb-3 block text-base font-medium text-headingColor text-white"
                     >
                       Message
                     </label>
