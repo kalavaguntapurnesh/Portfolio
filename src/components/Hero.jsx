@@ -9,21 +9,21 @@ const Hero = () => {
         <div className="flex flex-col gap-4 w-full lg:mb-0 mb-6 space-y-2 lg:ml-6 mt-6">
           <div className="flex items-center lg:justify-start justify-center ">
             <div className="h-4 w-1 bg-green-500"></div>
-            <h1 className="ml-2 text-lg font-bold text-green-500 uppercase">
+            <h2 className="ml-2 text-lg font-bold text-green-500 uppercase">
               collaborate with me
-            </h1>
+            </h2>
           </div>
           <div className=" flex items-center lg:justify-start justify-center ">
-            <h1 className="xl:text-6xl text-[40px] font-bold xl:leading-[72px] lg:leading-[60px] lg:text-start text-center text-headingColor text-white">
+            <h2 className="xl:text-6xl text-[40px] font-bold xl:leading-[72px] lg:leading-[60px] lg:text-start text-center text-headingColor text-white">
               Hello, myself Purnesh
               <span className="text-green-500"> Kalavagunta</span>
-            </h1>
+            </h2>
           </div>
 
           <div className="flex items-center lg:justify-start justify-center">
-            <h1 className="lg:text-[24px] text-[24px] font-semibold  lg:text-start text-center text-headingColor text-white">
+            <h2 className="lg:text-[24px] text-[24px] font-semibold  lg:text-start text-center text-headingColor text-white">
               Software Engineer (February 2023 - Present)
-            </h1>
+            </h2>
           </div>
 
           <div className="flex items-center lg:justify-start justify-center ">

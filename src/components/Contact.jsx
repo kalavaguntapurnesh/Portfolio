@@ -12,22 +12,22 @@ const Contact = () => {
             <div>
               <div className="flex flex-col space-y-4 mt-8">
                 <div className="flex md:justify-start justify-center">
-                  <h1 className="uppercase font-bold text-green-500 tracking-wide">
+                  <h3 className="uppercase font-bold text-green-500 tracking-wide">
                     get in touch
-                  </h1>
+                  </h3>
                 </div>
                 <div className="flex md:justify-start justify-center md:text-start text-center">
-                  <h1 className="lg:text-5xl text-4xl font-bold tracking-normal  leading-normal text-white text-headingColor">
+                  <h3 className="lg:text-5xl text-4xl font-bold tracking-normal  leading-normal text-white text-headingColor">
                     Motivated to make a better future, connect to me through
                     this form.
-                  </h1>
+                  </h3>
                 </div>
                 <div className="flex md:justify-start justify-center md:text-start text-center">
-                  <h1 className="leading-relaxed tracking-wide font-medium lg:text-[20px] text-[16px] text-white text-sideHeading">
+                  <h3 className="leading-relaxed tracking-wide font-medium lg:text-[20px] text-[16px] text-white text-sideHeading">
                     Taking a step for a better and prosperous future is what
                     makes a human unique from others!!! Let's grow together in
                     this technological world faster.
-                  </h1>
+                  </h3>
                 </div>
               </div>
             </div>

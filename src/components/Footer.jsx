@@ -13,9 +13,9 @@ const Footer = () => {
         <div className="w-full px-4 mx-auto max-w-[1400px] text-white">
           <div className="flex flex-col flex-wrap items-center mt-2 mb-2">
             <div className="group transition duration-1000 text-headingColor text-white ">
-              <h1 className="text-center font-bold tracking-normal leading-relaxed text-3xl">
+              <h4 className="text-center font-bold tracking-normal leading-relaxed text-3xl">
                 Connect with me here.
-              </h1>
+              </h4>
               <div className="bg-green-500 h-[3px] w-full group-hover:w-0 transition-all duration-500"></div>
             </div>
           </div>
@@ -62,9 +62,9 @@ const Footer = () => {
           </div>
 
           <div className="mt-4">
-            <h1 className="text-center text-headingColor text-white tracking-normal leading-relaxed text-xs">
+            <h4 className="text-center text-headingColor text-white tracking-normal leading-relaxed text-xs">
               Copyright © 2024 Purnesh Kalavagunta. All rights reserved.
-            </h1>
+            </h4>
           </div>
         </div>
       </div>
