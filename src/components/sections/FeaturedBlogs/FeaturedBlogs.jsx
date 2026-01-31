@@ -166,7 +166,7 @@ const Blogs = () => {
 
             <select
               onChange={(e) => setSort(e.target.value)}
-              className="bg-brand text-sm rounded-full px-8 py-2"
+              className="bg-brand text-sm rounded-full text-white px-8 py-2"
             >
               <option value="date">Sort by Date</option>
               <option value="claps">Sort by Claps</option>
