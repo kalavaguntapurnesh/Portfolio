@@ -47,7 +47,7 @@ const EducationTimeline = () => {
         </div>
         <div className="md:w-40 w-20 h-1 border-b-2 border-brand mt-px"></div>
       </div>
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-5xl mx-auto pt-8">
         <div className="relative border-l border-gray-300">
           {experiences.map((exp, index) => (
             <div key={index} className="ml-10 mb-12 relative">

@@ -20,7 +20,7 @@ const Hero = () => {
               <h2 className="text-xl font-semibold text-brand">
                 Purnesh Kalavagunta
               </h2>
-              <span className="mt-2 px-3 py-1 rounded-full text-xs text-black">
+              <span className="mt-2 px-3 py-1 rounded-full text-sm text-black">
                 Full Stack Web & App Developer
               </span>
 
@@ -79,7 +79,7 @@ const Hero = () => {
             {/* Info */}
             <div className="space-y-4 text-sm">
               <Info label="Email" value="kalavaguntapurnesh@gmail.com" />
-              <Info label="Role" value="AI Full Stack Engineer" />
+              <Info label="Role" value="Full Stack Web & App Developer" />
               <Info label="Location" value="London, United Kingdom" />
               <Info label="Open To" value="Internships & Full Time" />
             </div>
@@ -137,7 +137,7 @@ const Hero = () => {
           {/* What I'm Doing */}
           <div className="mt-14">
             <h2 className="text-2xl font-bold mb-8 text-brand">
-              What I’m Doing
+              My Focus Areas
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -191,6 +191,6 @@ const Info = ({ label, value }) => (
 const Service = ({ title, desc }) => (
   <div className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition">
     <h3 className="font-semibold mb-2 text-black">{title}</h3>
-    <p className="text-sm text-gray-600">{desc}</p>
+    <p className="text-sm text-gray-600 leading-relaxed">{desc}</p>
   </div>
 );
