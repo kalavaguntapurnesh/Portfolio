@@ -6,82 +6,84 @@ const FeaturedProjects = () => {
 
   const projects = [
     {
-      title: "Sub-Agents Directory",
+      title: "AI Workflow Orchestrator",
       tech: ["Next.js", "PostgreSQL", "Tailwind CSS", "Selenium"],
       description:
-        "Curated collection of Claude Code sub-agent prompts and MCP servers. Discover sub-agents, prompts and more.",
+        "Platform to design, automate, and monitor multi-step AI workflows with agent-based execution and task tracking.",
       image:
         "https://images.unsplash.com/photo-1618477247222-acbdb0e159b3?q=80&w=1600",
       live: "#",
       repo: "#",
     },
     {
-      title: "Codejeet",
+      title: "PrepStack",
       tech: ["Next.js", "PostgreSQL", "Tailwind CSS", "Selenium"],
       description:
-        "Website to solve 8k+ company-wise, topic-wise DSA questions. 7.5k users. Supported by Cloudflare.",
+        "Interview preparation platform featuring curated coding problems, progress tracking, and company-focused practice sets.",
       image:
         "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1600",
       live: "#",
       repo: "#",
     },
     {
-      title: "Trendscreener",
+      title: "TrendPulse",
       tech: ["Next.js", "PostgreSQL", "Tailwind CSS", "Selenium"],
       description:
-        "Unified platform to track, list, and trade all social media trends. (Sold)",
+        "Analytics dashboard that aggregates and visualizes trending topics across social platforms in real time.",
       image:
         "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1600",
       live: "#",
     },
     {
-      title: "LVyou Group",
+      title: "FinStrat Advisory",
       tech: ["Next.js", "Tailwind CSS", "Framer Motion"],
       description:
-        "Landing page for a strategic consulting firm specializing in payments, blockchain, and commodities advisory.",
+        "High-conversion corporate website for a financial advisory firm focused on fintech, digital assets, and risk strategy.",
       image:
         "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1600",
       live: "#",
       repo: "#",
     },
     {
-      title: "AI Resume Analyzer",
+      title: "AI Talent Screener",
       tech: ["Next.js", "OpenAI", "Tailwind CSS"],
       description:
-        "AI-powered resume screening and scoring platform using semantic matching.",
+        "Automated hiring tool that evaluates resumes using AI-based scoring, skill extraction, and role-fit analysis.",
       image:
         "https://images.unsplash.com/photo-1556155092-8707de31f9c4?q=80&w=1600",
       live: "#",
       repo: "#",
     },
     {
-      title: "Smart Attendance System",
+      title: "Vision-Based Attendance",
       tech: ["Python", "OpenCV", "PostgreSQL"],
-      description: "Face-recognition based smart attendance tracking system.",
+      description:
+        "Computer vision system that identifies individuals and logs attendance using real-time facial recognition.",
       image:
         "https://images.unsplash.com/photo-1581090700227-1e37b190418e?q=80&w=1600",
       live: "#",
     },
     {
-      title: "LLM Chatbot",
+      title: "Enterprise AI Assistant",
       tech: ["LangChain", "Vector DB", "RAG"],
       description:
-        "Custom local LLM chatbot with retrieval augmented generation.",
+        "Private AI assistant for organizations with document ingestion, semantic search, and context-aware responses.",
       image:
         "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1600",
       live: "#",
       repo: "#",
     },
     {
-      title: "Payment Gateway Dashboard",
+      title: "Subscription Analytics Panel",
       tech: ["Next.js", "Stripe", "PostgreSQL"],
       description:
-        "Admin dashboard to track payments, users, and subscriptions.",
+        "Centralized dashboard for managing subscriptions, revenue metrics, and payment lifecycle events.",
       image:
         "https://images.unsplash.com/photo-1556740749-887f6717d7e4?q=80&w=1600",
       live: "#",
     },
   ];
+
   return (
     <section className=" py-20">
       <div className="max-w-6xl mx-auto px-6">

@@ -1,5 +1,5 @@
 import React from "react";
-import Profile from "../../../assets/Profile.JPG";
+import Profile from "@/assets/Profile.JPG";
 import { FaLinkedinIn, FaGithub, FaTwitter, FaFacebookF } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 

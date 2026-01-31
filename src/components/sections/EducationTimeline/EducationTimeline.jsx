@@ -1,7 +1,7 @@
 import React from "react";
-import UofR from "../../../assets/UofR.jpg";
-import Narayana from "../../../assets/Narayana.avif";
-import SVCE from "../../../assets/SVCE.png";
+import UofR from "@/assets/UofR.jpg";
+import Narayana from "@/assets/Narayana.avif";
+import SVCE from "@/assets/SVCE.png";
 
 const EducationTimeline = () => {
   const experiences = [
