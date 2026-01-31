@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { FaGithub, FaGlobe } from "react-icons/fa";
 
 const FeaturedProjects = () => {
   const [showAll, setShowAll] = useState(false);
@@ -33,6 +34,7 @@ const FeaturedProjects = () => {
       image:
         "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1600",
       live: "#",
+      repo: "#",
     },
     {
       title: "FinStrat Advisory",
@@ -62,6 +64,7 @@ const FeaturedProjects = () => {
       image:
         "https://images.unsplash.com/photo-1581090700227-1e37b190418e?q=80&w=1600",
       live: "#",
+      repo: "#",
     },
     {
       title: "Enterprise AI Assistant",
@@ -81,6 +84,7 @@ const FeaturedProjects = () => {
       image:
         "https://images.unsplash.com/photo-1556740749-887f6717d7e4?q=80&w=1600",
       live: "#",
+      repo: "#",
     },
   ];
 
@@ -147,16 +151,18 @@ const FeaturedProjects = () => {
                     <div className="flex gap-6 mt-4 text-sm">
                       <a
                         href={project.live}
-                        className="flex items-center gap-2 hover:text-white text-gray-400 transition"
+                        className="flex items-center gap-2 hover:text-black text-gray-400 transition"
                       >
-                        ↗ Live Preview
+                        <FaGlobe className="w-4 h-4" />
+                        <p>Live Preview</p>
                       </a>
                       {project.repo && (
                         <a
                           href={project.repo}
-                          className="flex items-center gap-2 hover:text-white text-gray-400 transition"
+                          className="flex items-center gap-2 hover:text-black text-gray-400 transition"
                         >
-                          ⌘ Repo URL
+                          <FaGithub className="w-4 h-4" />
+                          <p>Repo URL</p>
                         </a>
                       )}
                     </div>
