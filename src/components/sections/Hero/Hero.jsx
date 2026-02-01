@@ -5,7 +5,7 @@ import { SiLeetcode } from "react-icons/si";
 
 const Hero = () => {
   return (
-    <section className=" text-white py-16">
+    <section className="py-16">
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-10 pt-12 items-stretch">
         {/* LEFT SIDEBAR */}
         <aside className="lg:col-span-4 h-full">
@@ -20,7 +20,7 @@ const Hero = () => {
               <h2 className="text-xl font-semibold text-brand">
                 Purnesh Kalavagunta
               </h2>
-              <span className="mt-2 px-3 py-1 rounded-full text-sm text-black">
+              <span className="mt-2 px-3 py-1 rounded-full text-sm ">
                 Full Stack Web & App Developer
               </span>
 
@@ -107,7 +107,7 @@ const Hero = () => {
         </aside>
 
         {/* RIGHT CONTENT */}
-        <main className="lg:col-span-8 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] p-6 rounded-2xl">
+        <main className="lg:col-span-8 bg-white/5 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] p-6 rounded-2xl">
           {/* About */}
           <div>
             <h1 className="text-3xl font-bold mb-2 text-brand">About Me</h1>
@@ -190,7 +190,7 @@ const Info = ({ label, value }) => (
 
 const Service = ({ title, desc }) => (
   <div className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition">
-    <h3 className="font-semibold mb-2 text-black">{title}</h3>
+    <h3 className="font-semibold mb-2">{title}</h3>
     <p className="text-sm text-gray-600 leading-relaxed">{desc}</p>
   </div>
 );
