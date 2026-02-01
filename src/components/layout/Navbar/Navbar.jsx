@@ -24,7 +24,7 @@ const Navbar = () => {
       >
         <div className="justify-center w-full">
           <div
-            className={`flex justify-between md:shadow-none shadow h-20 w-full md:top-0 top-0 max-w-[1400px] mx-auto ${
+            className={`flex justify-between md:shadow-none shadow h-20 w-full md:top-0 top-0 max-w-350 mx-auto ${
               isDarkMode ? "text-white" : "text-black"
             }`}
           >
@@ -58,11 +58,11 @@ const Navbar = () => {
                 <a href="#timeline">Experience</a>
                 <div className="bg-brand h-0.5 w-0 group-hover:w-full transition-all duration-500"></div>
               </li>
-              <li className="lg:p-4 p-2.75 cursor-pointer ">
+              <li className="lg:p-4 p-2.75 cursor-pointer">
                 <a
                   href="#contact"
-                  className="bg-brand duration-1000 ease-in-out transition
-        rounded-full text-white px-8 py-2.5 text-center"
+                  className="bg-brand duration-1000 text-sm ease-in-out transition
+        rounded-full text-white px-8 py-2 text-center"
                 >
                   Contact{" "}
                 </a>
@@ -71,9 +71,9 @@ const Navbar = () => {
 
             <div onClick={handleNav} className="block md:hidden cursor-pointer">
               {!nav ? (
-                <RiMenu3Fill size={24} className=" mr-4 mt-6 text-black" />
+                <RiMenu3Fill size={24} className={`mr-4 mt-6  ${isDarkMode ? "text-white" : "text-black"}`} />
               ) : (
-                <AiOutlineClose size={24} className=" mr-4 mt-6 text-black" />
+                <AiOutlineClose size={24} className={`mr-4 mt-6 ${isDarkMode ? "text-white" : "text-black"}`} />
               )}
             </div>
 

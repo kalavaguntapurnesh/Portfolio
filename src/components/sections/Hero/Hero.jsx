@@ -17,10 +17,10 @@ const Hero = () => {
                 alt="Profile"
                 className="w-40 h-40 rounded-xl object-cover mb-4"
               />
-              <h2 className="text-xl font-semibold text-brand">
+              <h2 className="text-xl font-bold text-brand leading-relaxed">
                 Purnesh Kalavagunta
               </h2>
-              <span className="mt-2 px-3 py-1 rounded-full text-sm ">
+              <span className="mt-2 px-3 py-1 rounded-full text-sm">
                 Full Stack Web & App Developer
               </span>
 
