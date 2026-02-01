@@ -42,19 +42,19 @@ const Navbar = () => {
             </div>
 
             <ul className="hidden md:flex md:pt-4 ">
-              <li className="lg:p-4 p-2.75 group cursor-pointer text-black uppercase text-sm tracking-wider transition duration-1000 ">
+              <li className="lg:p-4 p-2.75 group cursor-pointer uppercase text-sm tracking-wider transition duration-1000 ">
                 <a href="#home">Home</a>
                 <div className="bg-brand h-0.5 w-0 group-hover:w-full transition-all duration-500"></div>
               </li>
-              <li className="lg:p-4 p-2.75 group cursor-pointer text-black uppercase text-sm tracking-wider transition duration-1000 ">
+              <li className="lg:p-4 p-2.75 group cursor-pointer uppercase text-sm tracking-wider transition duration-1000 ">
                 <a href="#skills">Skills</a>
                 <div className="bg-brand h-0.5 w-0 group-hover:w-full transition-all duration-500"></div>
               </li>
-              <li className="lg:p-4 p-2.75 group cursor-pointer text-black uppercase text-sm tracking-wider transition duration-1000 ">
+              <li className="lg:p-4 p-2.75 group cursor-pointer uppercase text-sm tracking-wider transition duration-1000 ">
                 <a href="#projects">Projects</a>
                 <div className="bg-brand h-0.5 w-0 group-hover:w-full transition-all duration-500"></div>
               </li>
-              <li className="lg:p-4 p-2.75 group cursor-pointer text-black uppercase text-sm tracking-wider transition duration-1000 ">
+              <li className="lg:p-4 p-2.75 group cursor-pointer uppercase text-sm tracking-wider transition duration-1000 ">
                 <a href="#timeline">Experience</a>
                 <div className="bg-brand h-0.5 w-0 group-hover:w-full transition-all duration-500"></div>
               </li>

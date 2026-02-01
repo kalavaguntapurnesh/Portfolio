@@ -210,7 +210,7 @@ const Technologies = () => {
                   </div>
                 </div>
 
-                <div className="lg:pt-12 lg:hidden block overflow-hidden bg-white">
+                <div className="lg:pt-12 lg:hidden block overflow-hidden">
                   <div className="relative w-full">
                     <div className="logo-slider">
                       <div className="logo-track">
@@ -239,7 +239,7 @@ const Technologies = () => {
                   </div>
                 </div>
 
-                <div className="lg:pt-8 overflow-hidden bg-white">
+                <div className="lg:pt-8 overflow-hidden">
                   <div className="relative w-full">
                     <div className="logo-slider">
                       <div className="logo-track">
@@ -267,7 +267,7 @@ const Technologies = () => {
                   </div>
                 </div>
 
-                <div className="lg:pt-8 lg:hidden block overflow-hidden bg-white">
+                <div className="lg:pt-8 lg:hidden block overflow-hidden">
                   <div className="relative w-full">
                     <div className="logo-slider">
                       <div className="logo-track">

@@ -65,7 +65,7 @@ const EducationTimeline = () => {
 
               {/* Content */}
               <p className="text-sm text-gray-500 mb-1">{exp.date}</p>
-              <h3 className="text-xl font-semibold text-gray-900">
+              <h3 className="text-xl font-semibold">
                 {exp.college}
               </h3>
               <p className="text-sm text-gray-500 mb-3">{exp.subject}</p>
