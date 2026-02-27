@@ -2,6 +2,7 @@ import "./App.css";
 import Navbar from "@/components/layout/Navbar";
 // import Footer from "@/components/layout/Footer";
 import SocialIcons from "@/components/ui/SocialIcons";
+import StructuredData from "@/components/seo/StructuredData";
 import { Routes, Route } from "react-router-dom";
 import Home from "@/pages/Home";
 import About from "@/pages/About";
@@ -17,6 +18,7 @@ function App() {
   
   return (
     <div className={`min-h-screen transition-colors duration-300 ${isDarkMode ? 'bg-gray-900 text-white' : 'bg-white text-black'}`}>
+      <StructuredData />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

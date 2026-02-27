@@ -122,7 +122,7 @@ const Blogs = () => {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
-            className="block mb-20 p-6 rounded-2xl border border-white/10 bg-white/5 hover:bg-white/10 transition shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]"
+            className="block mb-20 py-8 rounded-2xl border border-white/10 bg-white/5 hover:bg-white/10 transition"
           >
             <span className="text-xs uppercase text-brand tracking-wider">
               Featured Article
@@ -166,7 +166,7 @@ const Blogs = () => {
 
             <select
               onChange={(e) => setSort(e.target.value)}
-              className="bg-brand text-sm rounded-full text-white px-8 py-2"
+              className="bg-brand text-sm rounded-full px-8 py-2"
             >
               <option value="date">Sort by Date</option>
               <option value="claps">Sort by Claps</option>

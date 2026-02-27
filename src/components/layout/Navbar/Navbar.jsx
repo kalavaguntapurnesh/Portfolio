@@ -4,7 +4,6 @@ import { RiMenu3Fill } from "react-icons/ri";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import { SiLeetcode } from "react-icons/si";
 import { useDarkMode } from "../../../contexts/DarkModeContext";
 
 const Navbar = () => {
@@ -24,7 +23,7 @@ const Navbar = () => {
       >
         <div className="justify-center w-full">
           <div
-            className={`flex justify-between md:shadow-none shadow h-20 w-full md:top-0 top-0 max-w-350 mx-auto ${
+            className={`flex justify-between md:shadow-none shadow h-20 w-full md:top-0 top-0 max-w-[1400px] mx-auto ${
               isDarkMode ? "text-white" : "text-black"
             }`}
           >
@@ -42,27 +41,27 @@ const Navbar = () => {
             </div>
 
             <ul className="hidden md:flex md:pt-4 ">
-              <li className="lg:p-4 p-2.75 group cursor-pointer uppercase text-sm tracking-wider transition duration-1000 ">
+              <li className="lg:p-4 p-[11px] group cursor-pointer text-black font-medium uppercase text-sm tracking-wider transition duration-1000 ">
                 <a href="#home">Home</a>
                 <div className="bg-brand h-0.5 w-0 group-hover:w-full transition-all duration-500"></div>
               </li>
-              <li className="lg:p-4 p-2.75 group cursor-pointer uppercase text-sm tracking-wider transition duration-1000 ">
+              <li className="lg:p-4 p-[11px] group cursor-pointer text-black font-medium uppercase text-sm tracking-wider transition duration-1000 ">
                 <a href="#skills">Skills</a>
                 <div className="bg-brand h-0.5 w-0 group-hover:w-full transition-all duration-500"></div>
               </li>
-              <li className="lg:p-4 p-2.75 group cursor-pointer uppercase text-sm tracking-wider transition duration-1000 ">
+              <li className="lg:p-4 p-[11px] group cursor-pointer text-black font-medium uppercase text-sm tracking-wider transition duration-1000 ">
                 <a href="#projects">Projects</a>
                 <div className="bg-brand h-0.5 w-0 group-hover:w-full transition-all duration-500"></div>
               </li>
-              <li className="lg:p-4 p-2.75 group cursor-pointer uppercase text-sm tracking-wider transition duration-1000 ">
+              <li className="lg:p-4 p-[11px] group cursor-pointer text-black font-medium uppercase text-sm tracking-wider transition duration-1000 ">
                 <a href="#timeline">Experience</a>
                 <div className="bg-brand h-0.5 w-0 group-hover:w-full transition-all duration-500"></div>
               </li>
-              <li className="lg:p-4 p-2.75 cursor-pointer">
+              <li className="lg:p-4 p-[11px] cursor-pointer ">
                 <a
                   href="#contact"
-                  className="bg-brand duration-1000 text-sm ease-in-out transition
-        rounded-full text-white px-8 py-2 text-center"
+                  className="bg-brand duration-1000 ease-in-out transition
+        rounded-full text-white px-8 py-2.5 text-center"
                 >
                   Contact{" "}
                 </a>
@@ -71,9 +70,9 @@ const Navbar = () => {
 
             <div onClick={handleNav} className="block md:hidden cursor-pointer">
               {!nav ? (
-                <RiMenu3Fill size={24} className={`mr-4 mt-6  ${isDarkMode ? "text-white" : "text-black"}`} />
+                <RiMenu3Fill size={24} className=" mr-4 mt-6 text-black" />
               ) : (
-                <AiOutlineClose size={24} className={`mr-4 mt-6 ${isDarkMode ? "text-white" : "text-black"}`} />
+                <AiOutlineClose size={24} className=" mr-4 mt-6 text-black" />
               )}
             </div>
 
@@ -88,33 +87,31 @@ const Navbar = () => {
                 PURNESH.
               </h4>
               <ul className=" uppercase p-4">
-                <li className="p-4 border-b border-gray-400 text-black cursor-pointer">
+                <li className="p-4 border-b border-gray-500 text-black cursor-pointer">
                   <a href="#home">Home</a>
                 </li>
-                <li className="p-4 border-b border-gray-400 text-black cursor-pointer">
+                <li className="p-4 border-b border-gray-500 text-black cursor-pointer">
                   <a href="#skills">Skills</a>
                 </li>
-                <li className="p-4 border-b border-gray-400 text-black cursor-pointer ">
+                <li className="p-4 border-b border-gray-500 text-black cursor-pointer ">
                   <a href="#projects">Projects</a>
                 </li>
-                <li className="p-4 border-b border-gray-400 text-black cursor-pointer">
+                <li className="p-4 border-b border-gray-500 text-black cursor-pointer">
                   <a href="#timeline">Experience</a>
                 </li>
-                <li className="p-4 border-b border-gray-400 text-black cursor-pointer">
+                <li className="p-4 border-b border-gray-500 text-black cursor-pointer">
                   <a href="#contact">Contact</a>
                 </li>
               </ul>
 
               <div className="px-4">
-                <h4 className="p-4 text-xl font-semibold">Follow me on</h4>
+                <h4 className="p-4 text-xl font-medium">
+                  Follow me on
+                </h4>
                 <div className="p-4">
-                  <div className="grid grid-cols-5">
+                  <div className="grid grid-cols-4">
                     <a href="https://www.linkedin.com/in/purnesh-k-465aba228/">
                       <FaLinkedinIn className="w-6 h-6 text-gray-400 duration-1000 hover:text-mainColor ease-in-out" />
-                    </a>
-                    <a href="https://github.com/kalavaguntapurnesh">
-                      {" "}
-                      <SiLeetcode className="w-6 h-6 text-gray-400 duration-1000 hover:text-mainColor ease-in-out" />
                     </a>
                     <a href="https://twitter.com/Purneshstalwart">
                       <FaXTwitter className="w-6 h-6 text-gray-400 duration-1000 hover:text-mainColor ease-in-out" />

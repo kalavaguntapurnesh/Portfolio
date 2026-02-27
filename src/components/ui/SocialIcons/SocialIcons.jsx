@@ -14,12 +14,12 @@ import { useDarkMode } from "../../../contexts/DarkModeContext";
 
 const SocialIcons = () => {
   const { isDarkMode, toggleDarkMode } = useDarkMode();
-
+  
   const socialLinks = [
     {
       name: "GitHub",
       icon: FaGithub,
-      url: "https://github.com/kalavaguntapurnesh",
+      url: socialConfig.github,
       color: "bg-black",
     },
     {
@@ -31,25 +31,25 @@ const SocialIcons = () => {
     {
       name: "Medium",
       icon: FaMedium,
-      url: "https://medium.com/@kalavaguntapurnesh",
+      url: socialConfig.medium,
       color: "bg-black",
     },
     {
       name: "Twitter",
       icon: FaTwitter,
-      url: "https://x.com/purneshkalavag",
+      url: socialConfig.twitter,
       color: "bg-[#1DA1F2]",
     },
     {
       name: "LinkedIn",
       icon: FaLinkedin,
-      url: "https://www.linkedin.com/in/purnesh-kalavagunta/",
+      url: socialConfig.linkedin,
       color: "bg-[#0a66c2]",
     },
     {
       name: "Facebook",
       icon: FaFacebook,
-      url: "https://www.facebook.com/profile.php?id=100084688968409",
+      url: socialConfig.facebook,
       color: "bg-[#1877F2]",
     },
   ];
@@ -66,13 +66,7 @@ const SocialIcons = () => {
 
   return (
     <div className="fixed bottom-4 z-50 w-full mx-auto">
-      <div
-        className={`flex items-center justify-center max-w-100 mx-auto shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] rounded-full p-2 ${
-          isDarkMode
-            ? "bg-gray-800 shadow-[0px_2px_3px_-1px_rgba(255,255,255,0.1),0px_1px_0px_0px_rgba(255,255,255,0.02),0px_0px_0px_1px_rgba(255,255,255,0.08)]"
-            : "bg-white"
-        }`}
-      >
+      <div className={`flex items-center justify-center max-w-100 mx-auto shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] rounded-full p-2 ${isDarkMode ? 'bg-gray-800 shadow-[0px_2px_3px_-1px_rgba(255,255,255,0.1),0px_1px_0px_0px_rgba(255,255,255,0.02),0px_0px_0px_1px_rgba(255,255,255,0.08)]' : 'bg-white'}`}>
         <div className="flex flex-row space-x-4">
           {socialLinks.map(({ name, icon: IconComponent, url, color }) => {
             const Icon = IconComponent;
@@ -81,7 +75,7 @@ const SocialIcons = () => {
                 key={name}
                 onClick={() => handleClick(url)}
                 className={`
-                group relative p-2.5 cursor-pointer backdrop-blur-sm text-white 
+                group relative p-2.5 backdrop-blur-sm text-white 
                 rounded-full shadow-lg transition-all duration-300 ease-in-out 
                 transform hover:scale-110 ${color} hover:shadow-xl
               `}
@@ -104,23 +98,20 @@ const SocialIcons = () => {
               </button>
             );
           })}
-
+          
           {/* Dark Mode Toggle Button */}
           <button
             onClick={toggleDarkMode}
             className={`
             group relative p-2.5 backdrop-blur-sm transition-all duration-300 ease-in-out 
             transform hover:scale-110 rounded-full shadow-lg hover:shadow-xl
-            ${
-              isDarkMode
-                ? "bg-yellow-500 text-white hover:bg-yellow-400"
-                : "bg-gray-800 text-white hover:bg-gray-700"
+            ${isDarkMode 
+              ? 'bg-yellow-500 text-white hover:bg-yellow-400' 
+              : 'bg-gray-800 text-white hover:bg-gray-700'
             }
           `}
-            aria-label={
-              isDarkMode ? "Switch to light mode" : "Switch to dark mode"
-            }
-            title={isDarkMode ? "Light Mode" : "Dark Mode"}
+            aria-label={isDarkMode ? 'Switch to light mode' : 'Switch to dark mode'}
+            title={isDarkMode ? 'Light Mode' : 'Dark Mode'}
           >
             {isDarkMode ? (
               <FaSun className="w-4 h-4" />
