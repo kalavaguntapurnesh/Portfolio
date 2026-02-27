@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { FaGithub, FaGlobe } from "react-icons/fa";
 
 const FeaturedProjects = () => {
   const [showAll, setShowAll] = useState(false);
@@ -34,7 +33,6 @@ const FeaturedProjects = () => {
       image:
         "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1600",
       live: "#",
-      repo: "#",
     },
     {
       title: "FinStrat Advisory",
@@ -64,7 +62,6 @@ const FeaturedProjects = () => {
       image:
         "https://images.unsplash.com/photo-1581090700227-1e37b190418e?q=80&w=1600",
       live: "#",
-      repo: "#",
     },
     {
       title: "Enterprise AI Assistant",
@@ -84,7 +81,6 @@ const FeaturedProjects = () => {
       image:
         "https://images.unsplash.com/photo-1556740749-887f6717d7e4?q=80&w=1600",
       live: "#",
-      repo: "#",
     },
   ];
 
@@ -116,8 +112,12 @@ const FeaturedProjects = () => {
                   <div className="relative overflow-hidden rounded-xl border border-white/10">
                     <img
                       src={project.image}
-                      alt={project.title}
-                      className="h-65 w-full object-cover transition-transform duration-1000 group-hover:ease-in-out group-hover:scale-105"
+                      alt={`${project.title} project screenshot`}
+                      className="h-[260px] w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                      width="400"
+                      height="260"
+                      loading="lazy"
+                      decoding="async"
                     />
                     <div className="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition" />
                   </div>
@@ -151,18 +151,16 @@ const FeaturedProjects = () => {
                     <div className="flex gap-6 mt-4 text-sm">
                       <a
                         href={project.live}
-                        className="flex items-center gap-2 hover:text-black text-gray-400 transition"
+                        className="flex items-center gap-2 hover:text-white text-gray-400 transition"
                       >
-                        <FaGlobe className="w-4 h-4" />
-                        <p>Live Preview</p>
+                        ↗ Live Preview
                       </a>
                       {project.repo && (
                         <a
                           href={project.repo}
-                          className="flex items-center gap-2 hover:text-black text-gray-400 transition"
+                          className="flex items-center gap-2 hover:text-white text-gray-400 transition"
                         >
-                          <FaGithub className="w-4 h-4" />
-                          <p>Repo URL</p>
+                          ⌘ Repo URL
                         </a>
                       )}
                     </div>
