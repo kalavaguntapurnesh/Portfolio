@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { motion } from "framer-motion";
 import { AiOutlineClose } from "react-icons/ai";
 import { RiMenu3Fill } from "react-icons/ri";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
@@ -15,7 +16,12 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full fixed z-20">
+    <motion.div 
+      initial={{ opacity: 0, y: -20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6 }}
+      className="w-full fixed z-20"
+    >
       <div
         className={`w-full mx-auto max-w-7xl ${
           isDarkMode ? "bg-gray-900" : "bg-white"
@@ -131,7 +137,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

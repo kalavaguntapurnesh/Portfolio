@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import {
   FaGithub,
   FaLinkedin,
@@ -14,7 +15,7 @@ import { useDarkMode } from "../../../contexts/DarkModeContext";
 
 const SocialIcons = () => {
   const { isDarkMode, toggleDarkMode } = useDarkMode();
-  
+
   const socialLinks = [
     {
       name: "GitHub",
@@ -65,17 +66,33 @@ const SocialIcons = () => {
   };
 
   return (
-    <div className="fixed bottom-4 z-50 w-full mx-auto">
-      <div className={`flex items-center justify-center max-w-100 mx-auto shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] rounded-full p-2 ${isDarkMode ? 'bg-gray-800 shadow-[0px_2px_3px_-1px_rgba(255,255,255,0.1),0px_1px_0px_0px_rgba(255,255,255,0.02),0px_0px_0px_1px_rgba(255,255,255,0.08)]' : 'bg-white'}`}>
+    <motion.div 
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6 }}
+      className="fixed bottom-4 z-50 w-full mx-auto"
+    >
+      <div
+        className={`flex items-center justify-center max-w-100 mx-auto shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] rounded-full p-2 ${
+          isDarkMode
+            ? "bg-gray-800 shadow-[0px_2px_3px_-1px_rgba(255,255,255,0.1),0px_1px_0px_0px_rgba(255,255,255,0.02),0px_0px_0px_1px_rgba(255,255,255,0.08)]"
+            : "bg-white"
+        }`}
+      >
         <div className="flex flex-row space-x-4">
-          {socialLinks.map(({ name, icon: IconComponent, url, color }) => {
+          {socialLinks.map(({ name, icon: IconComponent, url, color }, index) => {
             const Icon = IconComponent;
             return (
-              <button
+              <motion.button
                 key={name}
+                initial={{ opacity: 0, scale: 0.5 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.3, delay: index * 0.1 }}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.95 }}
                 onClick={() => handleClick(url)}
                 className={`
-                group relative p-2.5 backdrop-blur-sm text-white 
+                group cursor-pointer relative p-2.5 backdrop-blur-sm text-white 
                 rounded-full shadow-lg transition-all duration-300 ease-in-out 
                 transform hover:scale-110 ${color} hover:shadow-xl
               `}
@@ -83,57 +100,41 @@ const SocialIcons = () => {
                 title={name}
               >
                 <Icon className={`w-4 h-4 ${color}`} />
-
-                {/* Tooltip - hidden on mobile for better UX */}
-                {/* <span
-                  className={`
-                absolute right-full cursor-pointer mr-2 sm:mr-3 top-1/2 transform -translate-y-1/2
-                bg-sky-500 text-white text-[8px] sm:text-sm px-2 py-1 whitespace-nowrap
-                opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-full
-                pointer-events-none hidden sm:block
-              `}
-                >
-                  {name}
-                </span> */}
-              </button>
+              </motion.button>
             );
           })}
-          
+
           {/* Dark Mode Toggle Button */}
-          <button
+          <motion.button
+            initial={{ opacity: 0, scale: 0.5 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.3, delay: socialLinks.length * 0.1 }}
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
             onClick={toggleDarkMode}
             className={`
-            group relative p-2.5 backdrop-blur-sm transition-all duration-300 ease-in-out 
+            group relative cursor-pointer p-2.5 backdrop-blur-sm transition-all duration-300 ease-in-out 
             transform hover:scale-110 rounded-full shadow-lg hover:shadow-xl
-            ${isDarkMode 
-              ? 'bg-yellow-500 text-white hover:bg-yellow-400' 
-              : 'bg-gray-800 text-white hover:bg-gray-700'
+            ${
+              isDarkMode
+                ? "bg-yellow-500 text-white hover:bg-yellow-400"
+                : "bg-gray-800 text-white hover:bg-gray-700"
             }
           `}
-            aria-label={isDarkMode ? 'Switch to light mode' : 'Switch to dark mode'}
-            title={isDarkMode ? 'Light Mode' : 'Dark Mode'}
+            aria-label={
+              isDarkMode ? "Switch to light mode" : "Switch to dark mode"
+            }
+            title={isDarkMode ? "Light Mode" : "Dark Mode"}
           >
             {isDarkMode ? (
               <FaSun className="w-4 h-4" />
             ) : (
               <FaMoon className="w-4 h-4" />
             )}
-
-            {/* Tooltip - hidden on mobile for better UX */}
-            {/* <span
-              className={`
-              absolute right-full cursor-pointer mr-2 sm:mr-3 top-1/2 transform -translate-y-1/2
-              bg-sky-500 text-white text-[8px] sm:text-sm px-2 py-1 whitespace-nowrap
-              opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-full
-              pointer-events-none hidden sm:block
-            `}
-            >
-              {isDarkMode ? 'Light Mode' : 'Dark Mode'}
-            </span> */}
-          </button>
+          </motion.button>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

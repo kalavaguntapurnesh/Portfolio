@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 import { Link, useNavigate } from "react-router-dom";
 import { useDarkMode } from "../../contexts/DarkModeContext";
 import { socialConfig } from "../../utils/socialConfig";
@@ -59,19 +60,37 @@ const NotFound = () => {
   };
 
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6 }}
       className={`min-h-screen flex  items-center justify-center p-4 md:p-8 font-sans transition-colors duration-300 ${
         isDarkMode ? "bg-gray-900 text-white" : "bg-white text-black"
       }`}
     >
-      <div className="max-w-4xl w-full text-center animate-fade-in pt-24">
+      <motion.div 
+        initial={{ opacity: 0, scale: 0.8 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.6, delay: 0.2 }}
+        className="max-w-4xl w-full text-center animate-fade-in pt-24"
+      >
         {/* Large 404 Number */}
-        <div className="text-6xl md:text-8xl lg:text-9xl font-black bg-brand bg-clip-text text-transparent mb-4 leading-none">
+        <motion.div 
+          initial={{ opacity: 0, y: -50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.3 }}
+          className="text-6xl md:text-8xl lg:text-9xl font-black bg-brand bg-clip-text text-transparent mb-4 leading-none"
+        >
           404
-        </div>
+        </motion.div>
 
         {/* Error Message */}
-        <div className="mb-8">
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.5 }}
+          className="mb-8"
+        >
           <h1 className="text-2xl md:text-4xl font-bold mb-4">
             Oops! This page seems to have wandered off
           </h1>
@@ -80,7 +99,7 @@ const NotFound = () => {
             for might have been moved, renamed, or temporarily unavailable. But
             hey, there's plenty more to explore!
           </p>
-        </div>
+        </motion.div>
 
         {/* Quick Search */}
         <div className="mb-12">
@@ -150,8 +169,8 @@ const NotFound = () => {
             Take Me Home
           </Link>
         </div>
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 };
 

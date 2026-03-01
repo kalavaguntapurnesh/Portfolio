@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import UofR from "@/assets/UofR.jpg";
 import Narayana from "@/assets/Narayana.avif";
 import SVCE from "@/assets/SVCE.png";
@@ -39,18 +40,29 @@ const EducationTimeline = () => {
 
   return (
     <div className="max-w-7xl mx-auto pt-12 mt-4 lg:px-0 px-8">
-      <div className="flex flex-wrap flex-col items-center pb-3">
+      <motion.div 
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        className="flex flex-wrap flex-col items-center pb-3"
+      >
         <div className="text-center mt-4">
           <h3 className="lg:text-3xl text-2xl font-bold ">
             My Education History
           </h3>
         </div>
         <div className="md:w-40 w-20 h-1 border-b-2 border-brand mt-px"></div>
-      </div>
+      </motion.div>
       <div className="max-w-5xl mx-auto">
         <div className="relative border-l border-gray-300">
           {experiences.map((exp, index) => (
-            <div key={index} className="ml-10 mb-12 relative">
+            <motion.div 
+              key={index} 
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.6, delay: index * 0.2 }}
+              className="ml-10 mb-12 relative"
+            >
               {/* Icon */}
               <a
                 href={exp.link}
@@ -74,7 +86,7 @@ const EducationTimeline = () => {
               </h3>
               <p className="text-sm text-gray-500 mb-3">{exp.subject}</p>
               <p className="text-gray-600 leading-relaxed">{exp.description}</p>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>
