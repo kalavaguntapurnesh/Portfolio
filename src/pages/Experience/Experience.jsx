@@ -1,13 +1,19 @@
 import React from 'react'
+import { motion } from "framer-motion";
 import { useDarkMode } from "../../contexts/DarkModeContext";
 
 const Experience = () => {
   const { isDarkMode } = useDarkMode();
   
   return (
-    <div className={`min-h-screen transition-colors duration-300 ${isDarkMode ? 'bg-gray-900 text-white' : 'bg-white text-black'}`}>
+    <motion.div 
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6 }}
+      className={`min-h-screen transition-colors duration-300 ${isDarkMode ? 'bg-gray-900 text-white' : 'bg-white text-black'}`}
+    >
       
-    </div>
+    </motion.div>
   )
 }
 
