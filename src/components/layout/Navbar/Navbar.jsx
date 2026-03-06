@@ -67,7 +67,7 @@ const Navbar = () => {
                   className="bg-brand duration-1000 ease-in-out transition
         rounded-full text-white px-8 py-2.5 text-center"
                 >
-                  Contact Me
+                  Contact
                 </a>
               </li>
             </ul>
@@ -104,7 +104,7 @@ const Navbar = () => {
                   <a href="/my-experience">Experience</a>
                 </li>
                 <li className="p-4 border-b border-gray-500 text-black cursor-pointer">
-                  <a href="/contact">Contact Me</a>
+                  <a href="/contact">Contact</a>
                 </li>
               </ul>
 
