@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { useDarkMode } from "../../contexts/DarkModeContext";
 import { FaLinkedinIn, FaGithub, FaTwitter, FaFacebookF } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
+import { Helmet } from "react-helmet-async";
 
 const Contact = () => {
   const { isDarkMode } = useDarkMode();
@@ -22,159 +23,169 @@ const Contact = () => {
   };
 
   return (
-    <motion.section
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6 }}
-      className={`min-h-screen py-24 px-6 transition-colors duration-300 ${isDarkMode ? "bg-gray-900 text-white" : "bg-white text-black"
-        }`}
-    >
-      <div className="max-w-6xl mx-auto pt-8">
+    <>
 
-        {/* Header */}
-        <div className="text-center mb-20">
-          <h1 className="text-4xl font-bold text-brand">Get In Touch</h1>
+      <Helmet>
+        <title>Contact | Purnesh Kalavagunta</title>
+        <meta name="description" content="Contact AI Full Stack Engineer Purnesh Kalavagunta for collaboration, freelance work, or software development projects." />
+        <link rel="canonical" href="https://purneshkalavagunta.com/contact" />
+      </Helmet>
 
-          <div className="w-20 h-1 bg-brand mx-auto mt-2 rounded-full"></div>
+      <motion.section
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        className={`min-h-screen py-24 px-6 transition-colors duration-300 ${isDarkMode ? "bg-gray-900 text-white" : "bg-white text-black"
+          }`}
+      >
+        <div className="max-w-6xl mx-auto pt-8">
 
-          <p className="text-gray-500 mt-4">
-            Have a project idea, collaboration opportunity, or just want to
-            say hello? Feel free to reach out.
-          </p>
-        </div>
+          {/* Header */}
+          <div className="text-center mb-20">
+            <h1 className="text-4xl font-bold text-brand">Get In Touch</h1>
 
-        <div className="grid md:grid-cols-2 gap-16">
+            <div className="w-20 h-1 bg-brand mx-auto mt-2 rounded-full"></div>
 
-          {/* Contact Info */}
-          <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: 0.2 }}
-          >
-            <h2 className="text-2xl font-semibold mb-6">Contact Information</h2>
+            <p className="text-gray-500 mt-4">
+              Have a project idea, collaboration opportunity, or just want to
+              say hello? Feel free to reach out.
+            </p>
+          </div>
 
-            <div className="space-y-4 text-gray-500">
+          <div className="grid md:grid-cols-2 gap-16">
 
-              <p>
-                <span className="font-medium">Location:</span> London, United Kingdom
-              </p>
+            {/* Contact Info */}
+            <motion.div
+              initial={{ opacity: 0, x: -20 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ delay: 0.2 }}
+            >
+              <h2 className="text-2xl font-semibold mb-6">Contact Information</h2>
 
-              <p>
-                <span className="font-medium">Email:</span>{" "}
-                kalavaguntapurnesh@gmail.com
-              </p>
+              <div className="space-y-4 text-gray-500">
 
-              <p>
-                <span className="font-medium">Open to:</span> Full-time roles,
-                internships, and freelance projects.
-              </p>
+                <p>
+                  <span className="font-medium">Location:</span> London, United Kingdom
+                </p>
 
-              {/* Socials */}
-              <div className="flex gap-8 pt-4 text-gray-400 text-2xl">
-                <a
-                  href="https://www.linkedin.com/in/your-linkedin"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-brand transition"
-                >
-                  <FaLinkedinIn />
-                </a>
+                <p>
+                  <span className="font-medium">Email:</span>{" "}
+                  kalavaguntapurnesh@gmail.com
+                </p>
 
-                <a
-                  href="https://leetcode.com/your-leetcode"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-brand transition"
-                >
-                  <SiLeetcode />
-                </a>
+                <p>
+                  <span className="font-medium">Open to:</span> Full-time roles,
+                  internships, and freelance projects.
+                </p>
 
-                <a
-                  href="https://github.com/your-github"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-brand transition"
-                >
-                  <FaGithub />
-                </a>
+                {/* Socials */}
+                <div className="flex gap-8 pt-4 text-gray-400 text-2xl">
+                  <a
+                    href="https://www.linkedin.com/in/your-linkedin"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-brand transition"
+                  >
+                    <FaLinkedinIn />
+                  </a>
 
-                <a
-                  href="https://twitter.com/your-twitter"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-brand transition"
-                >
-                  <FaTwitter />
-                </a>
+                  <a
+                    href="https://leetcode.com/your-leetcode"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-brand transition"
+                  >
+                    <SiLeetcode />
+                  </a>
 
-                <a
-                  href="https://facebook.com/your-facebook"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-brand transition"
-                >
-                  <FaFacebookF />
-                </a>
+                  <a
+                    href="https://github.com/your-github"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-brand transition"
+                  >
+                    <FaGithub />
+                  </a>
+
+                  <a
+                    href="https://twitter.com/your-twitter"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-brand transition"
+                  >
+                    <FaTwitter />
+                  </a>
+
+                  <a
+                    href="https://facebook.com/your-facebook"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-brand transition"
+                  >
+                    <FaFacebookF />
+                  </a>
+                </div>
+
               </div>
 
-            </div>
 
+            </motion.div>
 
-          </motion.div>
-
-          {/* Contact Form */}
-          <motion.form
-            onSubmit={handleSubmit}
-            initial={{ opacity: 0, x: 20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: 0.3 }}
-            className="space-y-6"
-          >
-
-            <div>
-              <label className="text-sm text-gray-500">Name</label>
-              <input
-                type="text"
-                name="name"
-                required
-                onChange={handleChange}
-                className="w-full mt-2 px-4 py-3 rounded-lg bg-white dark:bg-white/5 border border-gray-300 dark:border-white/10 focus:outline-none focus:ring-2 focus:ring-brand"
-              />
-            </div>
-
-            <div>
-              <label className="text-sm text-gray-500">Email</label>
-              <input
-                type="email"
-                name="email"
-                required
-                onChange={handleChange}
-                className="w-full mt-2 px-4 py-3 rounded-lg bg-white dark:bg-white/5 border border-gray-300 dark:border-white/10 focus:outline-none focus:ring-2 focus:ring-brand"
-              />
-            </div>
-
-            <div>
-              <label className="text-sm text-gray-500">Message</label>
-              <textarea
-                rows="5"
-                name="message"
-                required
-                onChange={handleChange}
-                className="w-full mt-2 px-4 py-3 rounded-lg bg-white dark:bg-white/5 border border-gray-300 dark:border-white/10 focus:outline-none focus:ring-2 focus:ring-brand"
-              />
-            </div>
-
-            <button
-              type="submit"
-              className="px-8 py-3 rounded-full bg-brand text-white font-medium hover:opacity-90 transition"
+            {/* Contact Form */}
+            <motion.form
+              onSubmit={handleSubmit}
+              initial={{ opacity: 0, x: 20 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ delay: 0.3 }}
+              className="space-y-6"
             >
-              Send Message
-            </button>
 
-          </motion.form>
+              <div>
+                <label className="text-sm text-gray-500">Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  required
+                  onChange={handleChange}
+                  className="w-full mt-2 px-4 py-3 rounded-lg bg-white dark:bg-white/5 border border-gray-300 dark:border-white/10 focus:outline-none focus:ring-2 focus:ring-brand"
+                />
+              </div>
+
+              <div>
+                <label className="text-sm text-gray-500">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  required
+                  onChange={handleChange}
+                  className="w-full mt-2 px-4 py-3 rounded-lg bg-white dark:bg-white/5 border border-gray-300 dark:border-white/10 focus:outline-none focus:ring-2 focus:ring-brand"
+                />
+              </div>
+
+              <div>
+                <label className="text-sm text-gray-500">Message</label>
+                <textarea
+                  rows="5"
+                  name="message"
+                  required
+                  onChange={handleChange}
+                  className="w-full mt-2 px-4 py-3 rounded-lg bg-white dark:bg-white/5 border border-gray-300 dark:border-white/10 focus:outline-none focus:ring-2 focus:ring-brand"
+                />
+              </div>
+
+              <button
+                type="submit"
+                className="px-8 py-3 rounded-full bg-brand text-white font-medium hover:opacity-90 transition"
+              >
+                Send Message
+              </button>
+
+            </motion.form>
+          </div>
         </div>
-      </div>
-    </motion.section>
+      </motion.section>
+
+    </>
   );
 };
 
