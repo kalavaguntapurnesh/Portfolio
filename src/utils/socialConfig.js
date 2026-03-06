@@ -3,7 +3,7 @@
 
 export const socialConfig = {
   github: "https://github.com/kalavaguntapurnesh",
-  leetcode: "https://leetcode.com/kalavaguntapurnesh",
+  leetcode: "https://leetcode.com/purneshkalavagunta",
   medium: "https://medium.com/@kalavaguntapurnesh",
   twitter: "https://x.com/purneshkalavag",
   linkedin: "https://linkedin.com/in/purnesh-kalavagunta",
