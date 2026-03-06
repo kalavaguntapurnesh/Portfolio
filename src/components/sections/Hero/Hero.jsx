@@ -43,7 +43,7 @@ const Hero = () => {
               {/* Socials */}
               <div className="flex gap-4 mt-4 text-gray-400">
                 <a
-                  href="https://www.linkedin.com/in/your-linkedin"
+                  href="https://linkedin.com/in/purnesh-kalavagunta"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-brand transition"
@@ -52,7 +52,7 @@ const Hero = () => {
                 </a>
 
                 <a
-                  href="https://leetcode.com/your-leetcode"
+                  href="https://leetcode.com/purneshkalavagunta"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-brand transition"
@@ -61,7 +61,7 @@ const Hero = () => {
                 </a>
 
                 <a
-                  href="https://github.com/your-github"
+                  href="https://github.com/kalavaguntapurnesh"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-brand transition"
@@ -70,7 +70,7 @@ const Hero = () => {
                 </a>
 
                 <a
-                  href="https://twitter.com/your-twitter"
+                  href="https://x.com/purneshkalavag"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-brand transition"
@@ -79,7 +79,7 @@ const Hero = () => {
                 </a>
 
                 <a
-                  href="https://facebook.com/your-facebook"
+                  href="https://www.facebook.com/profile.php?id=100084688968409"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-brand transition"
