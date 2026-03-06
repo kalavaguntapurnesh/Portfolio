@@ -105,7 +105,7 @@ const Hero = () => {
                 </p>
                 <ProtectedEmail />
               </div>
-              <Info label="Role" value="AI Full Stack Engineer" />
+              <Info label="Role" value="AI/ML Full Stack Engineer" />
               <Info label="Location" value="London, United Kingdom" />
               <Info label="Open To" value="Internships & Full Time" />
             </motion.div>
@@ -168,7 +168,7 @@ const Hero = () => {
                 and long-term maintainability.
               </p>
               <p>
-                Currently, I'm exploring AI-driven products, system design, and
+                Currently, I'm exploring AI/ML driven products, system design, and
                 modern web engineering.
               </p>
             </div>

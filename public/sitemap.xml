@@ -6,26 +6,26 @@
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
-  <url>
+  <!-- <url>
     <loc>https://purneshkalavagunta.com/about</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url>
+  </url> -->
   <url>
-    <loc>https://purneshkalavagunta.com/experience</loc>
+    <loc>https://purneshkalavagunta.com/my-experience</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://purneshkalavagunta.com/projects</loc>
+    <loc>https://purneshkalavagunta.com/my-projects</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://purneshkalavagunta.com/blogs</loc>
+    <loc>https://purneshkalavagunta.com/my-blogs</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
