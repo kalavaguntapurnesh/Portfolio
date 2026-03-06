@@ -16,56 +16,54 @@ const Navbar = () => {
   };
 
   return (
-    <motion.div 
+    <motion.div
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
       className="w-full fixed z-20"
     >
       <div
-        className={`w-full mx-auto max-w-7xl ${
-          isDarkMode ? "bg-gray-900" : "bg-white"
-        }`}
+        className={`w-full mx-auto max-w-7xl ${isDarkMode ? "bg-gray-900" : "bg-white"
+          }`}
       >
         <div className="justify-center w-full">
           <div
-            className={`flex justify-between md:shadow-none shadow h-20 w-full md:top-0 top-0 max-w-[1400px] mx-auto ${
-              isDarkMode ? "text-white" : "text-black"
-            }`}
+            className={`flex justify-between md:shadow-none shadow h-20 w-full md:top-0 top-0 max-w-350 mx-auto ${isDarkMode ? "text-white" : "text-black"
+              }`}
           >
-            <div className="lg:flex lg:flex-row lg:justify-center lg:items-center hidden lg:gap-2">
+            <a href="/" className="lg:flex lg:flex-row lg:justify-center lg:items-center hidden lg:gap-2">
               <div className="pl-4"></div>
               <div className="font-bold text-[30px] hidden lg:block">
                 <h2 className="text-brand">PURNESH.</h2>
               </div>
-            </div>
+            </a>
 
-            <div className="md:ml-4 lg:hidden flex justify-center items-center ">
+            <a href="/" className="md:ml-4 lg:hidden flex justify-center items-center ">
               <div className="font-semibold text-[26px] pl-6">
                 <h2 className="text-brand">PURNESH.</h2>
               </div>
-            </div>
+            </a>
 
             <ul className="hidden md:flex md:pt-4 ">
-              <li className="lg:p-4 p-[11px] group cursor-pointer text-black font-medium uppercase text-sm tracking-wider transition duration-1000 ">
-                <a href="#home">Home</a>
+              <li className="lg:p-4 p-2.75 group cursor-pointer font-medium uppercase text-sm tracking-wider transition duration-1000 ">
+                <a href="/">Home</a>
                 <div className="bg-brand h-0.5 w-0 group-hover:w-full transition-all duration-500"></div>
               </li>
-              <li className="lg:p-4 p-[11px] group cursor-pointer text-black font-medium uppercase text-sm tracking-wider transition duration-1000 ">
-                <a href="#skills">Skills</a>
+              <li className="lg:p-4 p-2.75 group cursor-pointer font-medium uppercase text-sm tracking-wider transition duration-1000 ">
+                <a href="/my-blogs">Blogs</a>
                 <div className="bg-brand h-0.5 w-0 group-hover:w-full transition-all duration-500"></div>
               </li>
-              <li className="lg:p-4 p-[11px] group cursor-pointer text-black font-medium uppercase text-sm tracking-wider transition duration-1000 ">
-                <a href="#projects">Projects</a>
+              <li className="lg:p-4 p-2.75 group cursor-pointer font-medium uppercase text-sm tracking-wider transition duration-1000 ">
+                <a href="/my-projects">Projects</a>
                 <div className="bg-brand h-0.5 w-0 group-hover:w-full transition-all duration-500"></div>
               </li>
-              <li className="lg:p-4 p-[11px] group cursor-pointer text-black font-medium uppercase text-sm tracking-wider transition duration-1000 ">
-                <a href="#timeline">Experience</a>
+              <li className="lg:p-4 p-2.75 group cursor-pointer font-medium uppercase text-sm tracking-wider transition duration-1000 ">
+                <a href="/my-experience">Experience</a>
                 <div className="bg-brand h-0.5 w-0 group-hover:w-full transition-all duration-500"></div>
               </li>
-              <li className="lg:p-4 p-[11px] cursor-pointer ">
+              <li className="lg:p-4 p-2.75 cursor-pointer ">
                 <a
-                  href="#contact"
+                  href="/contact"
                   className="bg-brand duration-1000 ease-in-out transition
         rounded-full text-white px-8 py-2.5 text-center"
                 >
@@ -76,9 +74,9 @@ const Navbar = () => {
 
             <div onClick={handleNav} className="block md:hidden cursor-pointer">
               {!nav ? (
-                <RiMenu3Fill size={24} className=" mr-4 mt-6 text-black" />
+                <RiMenu3Fill size={24} className=" mr-4 mt-6 " />
               ) : (
-                <AiOutlineClose size={24} className=" mr-4 mt-6 text-black" />
+                <AiOutlineClose size={24} className=" mr-4 mt-6" />
               )}
             </div>
 
@@ -94,19 +92,19 @@ const Navbar = () => {
               </h4>
               <ul className=" uppercase p-4">
                 <li className="p-4 border-b border-gray-500 text-black cursor-pointer">
-                  <a href="#home">Home</a>
+                  <a href="/">Home</a>
                 </li>
                 <li className="p-4 border-b border-gray-500 text-black cursor-pointer">
-                  <a href="#skills">Skills</a>
+                  <a href="/my-blogs">Blogs</a>
                 </li>
                 <li className="p-4 border-b border-gray-500 text-black cursor-pointer ">
-                  <a href="#projects">Projects</a>
+                  <a href="/my-projects">Projects</a>
                 </li>
                 <li className="p-4 border-b border-gray-500 text-black cursor-pointer">
-                  <a href="#timeline">Experience</a>
+                  <a href="/my-experience">Experience</a>
                 </li>
                 <li className="p-4 border-b border-gray-500 text-black cursor-pointer">
-                  <a href="#contact">Contact</a>
+                  <a href="/contact">Contact</a>
                 </li>
               </ul>
 
