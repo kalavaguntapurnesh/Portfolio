@@ -45,11 +45,6 @@ const NotFound = () => {
     ) {
       navigate("/my-experience");
     } else if (
-      searchTerm.toLowerCase().includes("about") ||
-      searchTerm.toLowerCase().includes("bio")
-    ) {
-      navigate("/about");
-    } else if (
       searchTerm.toLowerCase().includes("contact") ||
       searchTerm.toLowerCase().includes("email")
     ) {

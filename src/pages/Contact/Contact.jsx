@@ -81,7 +81,7 @@ const Contact = () => {
                 {/* Socials */}
                 <div className="flex gap-8 pt-4 text-gray-400 text-2xl">
                   <a
-                    href="https://www.linkedin.com/in/your-linkedin"
+                    href="https://linkedin.com/in/purnesh-kalavagunta"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-brand transition"
@@ -90,7 +90,7 @@ const Contact = () => {
                   </a>
 
                   <a
-                    href="https://leetcode.com/your-leetcode"
+                    href="https://leetcode.com/purneshkalavagunta"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-brand transition"
@@ -99,7 +99,7 @@ const Contact = () => {
                   </a>
 
                   <a
-                    href="https://github.com/your-github"
+                    href="https://github.com/kalavaguntapurnesh"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-brand transition"
@@ -108,7 +108,7 @@ const Contact = () => {
                   </a>
 
                   <a
-                    href="https://twitter.com/your-twitter"
+                    href="https://twitter.com/purneshkalavg"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-brand transition"
@@ -117,7 +117,7 @@ const Contact = () => {
                   </a>
 
                   <a
-                    href="https://facebook.com/your-facebook"
+                    href="https://www.facebook.com/profile.php?id=100084688968409"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-brand transition"
@@ -147,7 +147,7 @@ const Contact = () => {
                   name="name"
                   required
                   onChange={handleChange}
-                  className="w-full mt-2 px-4 py-3 rounded-lg bg-white dark:bg-white/5 border border-gray-300 dark:border-white/10 focus:outline-none focus:ring-2 focus:ring-brand"
+                  className="w-full mt-2 px-4 py-3 rounded-lg bg-white dark:bg-white/5 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-brand"
                 />
               </div>
 
@@ -158,7 +158,7 @@ const Contact = () => {
                   name="email"
                   required
                   onChange={handleChange}
-                  className="w-full mt-2 px-4 py-3 rounded-lg bg-white dark:bg-white/5 border border-gray-300 dark:border-white/10 focus:outline-none focus:ring-2 focus:ring-brand"
+                  className="w-full mt-2 px-4 py-3 rounded-lg bg-white dark:bg-white/5 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-brand"
                 />
               </div>
 
@@ -169,7 +169,7 @@ const Contact = () => {
                   name="message"
                   required
                   onChange={handleChange}
-                  className="w-full mt-2 px-4 py-3 rounded-lg bg-white dark:bg-white/5 border border-gray-300 dark:border-white/10 focus:outline-none focus:ring-2 focus:ring-brand"
+                  className="w-full mt-2 px-4 py-3 rounded-lg bg-white dark:bg-white/5 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-brand"
                 />
               </div>
 

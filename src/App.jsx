@@ -1,11 +1,9 @@
 import "./App.css";
 import Navbar from "@/components/layout/Navbar";
-// import Footer from "@/components/layout/Footer";
 import SocialIcons from "@/components/ui/SocialIcons";
 import StructuredData from "@/components/seo/StructuredData";
 import { Routes, Route } from "react-router-dom";
 import Home from "@/pages/Home";
-import About from "@/pages/About";
 import Contact from "@/pages/Contact";
 import Projects from "@/pages/Projects";
 import Blogs from "@/pages/Blogs";
@@ -22,14 +20,12 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/my-projects" element={<Projects />} />
         <Route path="/my-blogs" element={<Blogs />} />
         <Route path="/my-experience" element={<Experience />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-      {/* <Footer /> */}
       <SocialIcons />
     </div>
   );
