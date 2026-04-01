@@ -96,7 +96,7 @@ const Blogs = () => {
 
               <div className="w-20 h-1 bg-brand mx-auto mt-2 rounded-full"></div>
 
-              <p className="text-gray-500 mt-4">
+              <p className="text-gray-600 mt-4">
                 I write about software engineering, AI systems, full-stack
                 development, and building scalable products.
               </p>
