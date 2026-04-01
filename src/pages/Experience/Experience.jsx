@@ -10,13 +10,22 @@ const Experience = () => {
   return (
     <>
       <Helmet>
-        <title>Experience | Purnesh Kalavagunta</title>
+        <title>My Experience | Purnesh Kalavagunta</title>
         <meta
           name="description"
-          content="Professional experience of AI Full Stack Engineer Purnesh Kalavagunta including software development, AI, and cloud engineering roles."
+          content="Professional experience of AI Full Stack Engineer Purnesh Kalavagunta including software development, AI, and cloud engineering roles with 3+ years in the industry."
         />
+        <meta name="keywords" content="Experience, Full Stack Engineering, Software Development, AI Engineering, Cloud Computing" />
         <link rel="canonical" href="https://purneshkalavagunta.com/my-experience" />
-
+        <meta property="og:title" content="My Experience | Purnesh Kalavagunta" />
+        <meta property="og:description" content="Professional experience of AI Full Stack Engineer Purnesh Kalavagunta including software development, AI, and cloud engineering roles with 3+ years in the industry." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://purneshkalavagunta.com/my-experience" />
+        <meta property="og:image" content="https://purneshkalavagunta.com/src/assets/Profile.JPG" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="My Experience | Purnesh Kalavagunta" />
+        <meta name="twitter:description" content="Professional experience of AI Full Stack Engineer Purnesh Kalavagunta including software development, AI, and cloud engineering roles." />
+        <meta name="twitter:image" content="https://purneshkalavagunta.com/src/assets/Profile.JPG" />
       </Helmet>
 
       <motion.section

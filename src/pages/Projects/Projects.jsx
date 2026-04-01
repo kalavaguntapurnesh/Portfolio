@@ -2,6 +2,7 @@ import React, { useState, useMemo } from "react";
 import { motion } from "framer-motion";
 import { useDarkMode } from "../../contexts/DarkModeContext";
 import { Helmet } from "react-helmet-async";
+import { seoConfig } from "@/utils/seoConfig";
 
 const Projects = () => {
   const { isDarkMode } = useDarkMode();
@@ -97,13 +98,19 @@ const Projects = () => {
   return (
     <>
       <Helmet>
-        <title>Projects | Purnesh Kalavagunta</title>
-        <meta
-          name="description"
-          content="Explore AI, full stack, and cloud projects built by Purnesh Kalavagunta using React, Node.js, Python and modern technologies."
-        />
-        <link rel="canonical" href="https://purneshkalavagunta.com/my-projects" />
-
+        <title>{seoConfig.projects.title}</title>
+        <meta name="description" content={seoConfig.projects.description} />
+        <meta name="keywords" content={seoConfig.projects.keywords} />
+        <link rel="canonical" href={seoConfig.projects.url} />
+        <meta property="og:title" content={seoConfig.projects.title} />
+        <meta property="og:description" content={seoConfig.projects.description} />
+        <meta property="og:type" content={seoConfig.projects.type} />
+        <meta property="og:url" content={seoConfig.projects.url} />
+        <meta property="og:image" content={seoConfig.projects.image} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={seoConfig.projects.title} />
+        <meta name="twitter:description" content={seoConfig.projects.description} />
+        <meta name="twitter:image" content={seoConfig.projects.image} />
       </Helmet>
       <motion.section
         initial={{ opacity: 0, y: 20 }}

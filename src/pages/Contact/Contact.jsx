@@ -26,9 +26,19 @@ const Contact = () => {
     <>
 
       <Helmet>
-        <title>Contact | Purnesh Kalavagunta</title>
-        <meta name="description" content="Contact AI Full Stack Engineer Purnesh Kalavagunta for collaboration, freelance work, or software development projects." />
+        <title>Contact | Purnesh Kalavagunta - AI/ML Full Stack Engineer</title>
+        <meta name="description" content="Contact AI Full Stack Engineer Purnesh Kalavagunta for collaboration, freelance work, or software development projects. Get in touch now!" />
+        <meta name="keywords" content="Contact, Hire Developer, Freelance, Collaboration, Software Development" />
         <link rel="canonical" href="https://purneshkalavagunta.com/contact" />
+        <meta property="og:title" content="Contact | Purnesh Kalavagunta - AI/ML Full Stack Engineer" />
+        <meta property="og:description" content="Contact AI Full Stack Engineer Purnesh Kalavagunta for collaboration, freelance work, or software development projects." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://purneshkalavagunta.com/contact" />
+        <meta property="og:image" content="https://purneshkalavagunta.com/src/assets/Profile.JPG" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Contact | Purnesh Kalavagunta - AI/ML Full Stack Engineer" />
+        <meta name="twitter:description" content="Contact AI Full Stack Engineer for collaboration, freelance work, or software development." />
+        <meta name="twitter:image" content="https://purneshkalavagunta.com/src/assets/Profile.JPG" />
       </Helmet>
 
       <motion.section

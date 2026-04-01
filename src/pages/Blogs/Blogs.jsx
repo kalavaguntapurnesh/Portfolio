@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { useDarkMode } from "../../contexts/DarkModeContext";
 import { useEffect, useState, useMemo } from "react";
 import { Helmet } from 'react-helmet-async';
+import { seoConfig } from "@/utils/seoConfig";
 
 const MEDIUM_RSS =
   "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@kalavaguntapurnesh";
@@ -61,9 +62,19 @@ const Blogs = () => {
     <>
 
       <Helmet>
-        <title>Blogs | Purnesh Kalavagunta</title>
-        <meta name="description" content="Technical blogs about AI, full stack development, cloud engineering and modern software technologies." />
-        <link rel="canonical" href="https://purneshkalavagunta.com/my-blogs" />
+        <title>{seoConfig.blogs.title}</title>
+        <meta name="description" content={seoConfig.blogs.description} />
+        <meta name="keywords" content={seoConfig.blogs.keywords} />
+        <link rel="canonical" href={seoConfig.blogs.url} />
+        <meta property="og:title" content={seoConfig.blogs.title} />
+        <meta property="og:description" content={seoConfig.blogs.description} />
+        <meta property="og:type" content={seoConfig.blogs.type} />
+        <meta property="og:url" content={seoConfig.blogs.url} />
+        <meta property="og:image" content={seoConfig.blogs.image} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={seoConfig.blogs.title} />
+        <meta name="twitter:description" content={seoConfig.blogs.description} />
+        <meta name="twitter:image" content={seoConfig.blogs.image} />
       </Helmet>
 
       <motion.div
