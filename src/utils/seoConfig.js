@@ -17,9 +17,9 @@ export const seoConfig = {
     type: "website",
   },
   projects: {
-    title: "Projects | Purnesh Kalavagunta - AI/ML Full Stack Engineer",
-    description: "Explore 20+ innovative projects including AI workflows, full-stack applications, and web development solutions built with React, Node.js, Python, and more.",
-    keywords: "Projects, Portfolio, AI Projects, Full Stack Development, Web Applications, Machine Learning Projects",
+    title: "Projects | Purnesh Kalavagunta - Full Stack Developer",
+    description: "Explore client projects and production websites built with React, Node.js, Spring Boot, Angular, PostgreSQL, and Tailwind CSS.",
+    keywords: "Projects, Portfolio, React Projects, Angular Projects, Spring Boot, Node.js, PostgreSQL, Tailwind CSS, Full Stack Development",
     url: "https://purneshkalavagunta.com/my-projects",
     image: "https://purneshkalavagunta.com/src/assets/Profile.JPG",
     type: "website",

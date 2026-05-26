@@ -3,6 +3,13 @@ import { motion } from "framer-motion";
 import { useDarkMode } from "../../contexts/DarkModeContext";
 import { Helmet } from "react-helmet-async";
 import { seoConfig } from "@/utils/seoConfig";
+import projectFive from "@/assets/projectFive.png";
+import projectFour from "@/assets/projectFour.png";
+import projectOne from "@/assets/projectOne.png";
+import projectSeven from "@/assets/projectSeven.png";
+import projectSix from "@/assets/projectSix.png";
+import projectThree from "@/assets/projectThree.png";
+import projectTwo from "@/assets/projectTwo.png";
 
 const Projects = () => {
   const { isDarkMode } = useDarkMode();
@@ -12,72 +19,71 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "AI Workflow Orchestrator",
-      category: "AI",
-      tech: ["Next.js", "PostgreSQL", "Tailwind", "Selenium"],
+      title: "LM Club",
+      category: "React",
+      tech: ["React", "Node.js", "PostgreSQL", "Tailwind CSS"],
       description:
-        "Platform to design and automate multi-step AI workflows with task orchestration and monitoring.",
-      image:
-        "https://images.unsplash.com/photo-1618477247222-acbdb0e159b3?q=80&w=1600",
-      live: "#",
-      repo: "#",
+        "Member-focused platform built with React, Node.js, PostgreSQL, and Tailwind CSS.",
+      image: projectOne,
+      live: "https://www.lmclub.club/",
     },
     {
-      title: "PrepStack",
-      category: "Web",
-      tech: ["Next.js", "PostgreSQL", "Tailwind"],
+      title: "Triptovilla",
+      category: "Angular",
+      tech: ["Spring Boot", "Angular", "Tailwind CSS", "PostgreSQL"],
       description:
-        "Interview preparation platform with curated problems, progress tracking and company-focused question sets.",
-      image:
-        "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1600",
-      live: "#",
-      repo: "#",
+        "Travel platform built with Spring Boot, Angular, Tailwind CSS, and PostgreSQL.",
+      image: projectTwo,
+      live: "https://dev.triptovilla.com/",
     },
     {
-      title: "TrendPulse",
-      category: "Analytics",
-      tech: ["Next.js", "Node.js", "PostgreSQL"],
+      title: "RMA Housing",
+      category: "Angular",
+      tech: ["Spring Boot", "Angular", "Tailwind CSS", "PostgreSQL"],
       description:
-        "Analytics dashboard visualizing trending topics across social platforms in real time.",
-      image:
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1600",
-      live: "#",
+        "Housing platform built with Spring Boot, Angular, Tailwind CSS, and PostgreSQL.",
+      image: projectThree,
+      live: "https://dev.rmahousing.com/",
     },
     {
-      title: "FinStrat Advisory",
-      category: "Web",
-      tech: ["Next.js", "Tailwind", "Framer Motion"],
+      title: "Axseva",
+      category: "React",
+      tech: ["React", "Node.js", "Tailwind CSS"],
       description:
-        "Corporate website for fintech advisory firm focused on digital assets and financial strategy.",
-      image:
-        "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1600",
-      live: "#",
-      repo: "#",
+        "Corporate site implemented with React, Node.js, and Tailwind CSS.",
+      image: projectFour,
+      live: "https://www.axseva.com/",
     },
     {
-      title: "AI Talent Screener",
-      category: "AI",
-      tech: ["OpenAI", "Next.js", "Tailwind"],
+      title: "Cloud Data Networks",
+      category: "React",
+      tech: ["React", "Node.js", "Tailwind CSS"],
       description:
-        "AI-powered hiring assistant that evaluates resumes and scores candidates for role fit.",
-      image:
-        "https://images.unsplash.com/photo-1556155092-8707de31f9c4?q=80&w=1600",
-      live: "#",
-      repo: "#",
+        "Business website built with the same React and Node.js stack as Axseva.",
+      image: projectFive,
+      live: "https://www.clouddatanetworks.com/",
     },
     {
-      title: "Vision Attendance System",
-      category: "AI",
-      tech: ["Python", "OpenCV", "PostgreSQL"],
+      title: "Alcheminds Solutions",
+      category: "React",
+      tech: ["React", "Node.js", "Tailwind CSS"],
       description:
-        "Computer vision based attendance system using real-time face recognition.",
-      image:
-        "https://images.unsplash.com/photo-1581090700227-1e37b190418e?q=80&w=1600",
-      live: "#",
+        "Solutions website built with React, Node.js, and Tailwind CSS.",
+      image: projectSix,
+      live: "https://www.alchemindssolutions.com/",
+    },
+    {
+      title: "Lakshmi Areti",
+      category: "React",
+      tech: ["React", "Node.js", "Tailwind CSS"],
+      description:
+        "Personal or business site implemented with React, Node.js, and Tailwind CSS.",
+      image: projectSeven,
+      live: "https://lakshmiareti.us/",
     },
   ];
 
-  const categories = ["All", "AI", "Web", "Analytics"];
+  const categories = ["All", "React", "Angular"];
 
   const filteredProjects = useMemo(() => {
     let list = [...projects];
@@ -139,7 +145,7 @@ const Projects = () => {
               type="text"
               placeholder="Search projects..."
               onChange={(e) => setSearch(e.target.value)}
-              className="bg-white shadow rounded-full px-6 py-3 text-sm outline-none w-full md:w-[300px]"
+              className="bg-white shadow rounded-full px-6 py-3 text-sm outline-none w-full md:w-75"
             />
 
             <div className="flex gap-3 flex-wrap">
@@ -173,14 +179,19 @@ const Projects = () => {
               >
 
                 {/* Image */}
-                <div className="relative overflow-hidden rounded-xl border border-white/10">
+                <a
+                  href={project.live}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="relative block overflow-hidden rounded-xl border border-white/10"
+                >
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="h-[220px] w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    className="h-55 w-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition" />
-                </div>
+                </a>
 
                 {/* Content */}
                 <div className="mt-5">

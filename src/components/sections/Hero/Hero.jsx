@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Profile from "@/assets/Profile.JPG";
+import Profile from "@/assets/profileOne.jpg";
 import { FaLinkedinIn, FaGithub, FaTwitter, FaFacebookF } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 import ProtectedEmail from "../../ui/ProtectedEmail";
@@ -37,7 +37,7 @@ const Hero = () => {
                 Purnesh Kalavagunta
               </h2>
               <span className="mt-2 px-3 py-1 rounded-full text-xs text-black">
-                Full Stack Web & App Developer
+                AI/ML Full Stack Engineer
               </span>
 
               {/* Socials */}
