@@ -79,7 +79,7 @@ const Footer = () => {
 
           <div className="mt-4">
             <h4 className="text-center text-headingColor text-white tracking-normal leading-relaxed text-xs">
-              Copyright © 2024 Purnesh Kalavagunta. All rights reserved.
+              Copyright © {new Date().getFullYear()} Purnesh Kalavagunta. All rights reserved.
             </h4>
           </div>
         </div>
