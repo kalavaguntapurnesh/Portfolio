@@ -1,5 +1,51 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+build/
+.vite/
+
+# Environment variables and local config
+.env
+.env.*
+!.env.example
+*.local
+
+# Hosting and deployment secrets
+.vercel/
+.netlify/
+.firebase/
+.hostinger/
+.ftpconfig
+.ftpconfig.*
+sftp-config.json
+deploy.*
+deployment.*
+
+# Keys, certificates, and credentials
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+*.cert
+*.csr
+*.credentials
+*.credentials.*
+*secret*
+*secrets*
+*token*
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+known_hosts
+
 # Logs
-logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -7,16 +53,12 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
+# OS and editor files
+.DS_Store
+Thumbs.db
 .vscode/*
 !.vscode/extensions.json
-.idea
-.DS_Store
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
