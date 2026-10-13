@@ -1,15 +1,27 @@
 import React from "react";
-import { motion } from "framer-motion";
+import { motion as Motion } from "framer-motion";
+import rsuLogo from "../../../assets/rsu-logo-black.svg";
+import alchemindsLogo from "../../../assets/alcheminds-logo.png";
+import cloudDataNetworksLogo from "../../../assets/cloud-data-networks.png";
 
 const ExperienceTimeline = () => {
   const experiences = [
+    {
+      college: "Roehampton Students' Union",
+      date: "October 2026 - Present",
+      subject: "Program Representative - Artificial Intelligence",
+      description:
+        "• Represent students within the programme and communicate student feedback to university staff.\n• Work with school representatives and academic staff to identify and address issues affecting students.\n• Gather student feedback and contribute to discussions around improving the student experience.\n• Develop communication, leadership, teamwork, and stakeholder engagement skills.",
+      icon: rsuLogo,
+      link: "https://www.roehamptonstudent.com/",
+    },
     {
       college: "Alcheminds Solutions Pvt Ltd, India",
       date: "June 2023 - Jan 2026",
       subject: "Full Stack App & Web Developer",
       description:
         "Worked as a Full Stack Developer, responsible for designing, developing, and maintaining web and mobile applications. Collaborating with cross-functional teams to deliver high-quality software solutions that meet client requirements and enhance user experience.",
-      icon: "https://www.clouddatanetworks.com/assets/logo-ChTLD_gX.png",
+      icon: alchemindsLogo,
       link: "https://www.alchemindssolutions.com/",
     },
     {
@@ -19,14 +31,14 @@ const ExperienceTimeline = () => {
       description:
         "Interned as a Full Stack Developer, contributing to the development of web applications and services. Gained hands-on experience in front-end and back-end technologies, collaborating with senior developers to implement features and optimize performance.",
 
-      icon: "https://www.alchemindssolutions.com/assets/l8-B6JxuAcn.png",
+      icon: cloudDataNetworksLogo,
       link: "https://www.clouddatanetworks.com/",
     },
   ];
 
   return (
     <div className="max-w-7xl mx-auto py-4 lg:px-0 px-8">
-      <motion.div 
+      <Motion.div 
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
@@ -40,11 +52,11 @@ const ExperienceTimeline = () => {
           </div>
           <div className="md:w-40 w-20 h-1 border-b-2 border-brand mt-px"></div>
         </div>
-      </motion.div>
+      </Motion.div>
       <div className="max-w-5xl mx-auto">
         <div className="relative border-l border-gray-300">
           {experiences.map((exp, index) => (
-            <motion.div 
+            <Motion.div 
               key={index}
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -54,13 +66,13 @@ const ExperienceTimeline = () => {
               {/* Icon */}
               <a
                 href={exp.link}
-                className="absolute border-none -left-17 top-1 rounded-full bg-white border flex items-center justify-center"
+                className="absolute -left-[4.5rem] top-1 flex h-12 w-16 items-center justify-center rounded-md bg-white p-1 md:-left-20 md:h-14 md:w-20"
               >
                 <img
                   src={exp.icon}
                   alt={`${exp.college} logo`}
-                  className="rounded-full w-14 h-14 object-cover"
-                  width="56"
+                  className="h-full w-full object-contain"
+                  width="80"
                   height="56"
                   loading="lazy"
                   decoding="async"
@@ -73,8 +85,10 @@ const ExperienceTimeline = () => {
                 {exp.college}
               </h3>
               <p className="text-sm text-gray-500 mb-3">{exp.subject}</p>
-              <p className="text-gray-600 leading-relaxed">{exp.description}</p>
-            </motion.div>
+              <p className="text-gray-600 leading-relaxed whitespace-pre-line">
+                {exp.description}
+              </p>
+            </Motion.div>
           ))}
         </div>
       </div>
