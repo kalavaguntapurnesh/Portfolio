@@ -5,6 +5,7 @@ import Technologies from "@/components/sections/Technologies";
 import EducationTimeline from "@/components/sections/EducationTimeline";
 import ExperienceTimeline from "@/components/sections/ExperienceTimeline";
 import FeaturedProjects from "@/components/sections/FeaturedProjects";
+import GitHubContributions from "@/components/sections/GitHubContributions";
 import { useDarkMode } from "../../contexts/DarkModeContext";
 import FeaturedBlogs from "@/components/sections/FeaturedBlogs";
 import Hero from "@/components/sections/Hero";
@@ -34,16 +35,16 @@ const Home = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.6 }}
-        className={`min-h-screen transition-colors duration-300 ${
-          isDarkMode ? "bg-gray-900 text-white" : "bg-white text-black"
-        }`}
+        className={`min-h-screen transition-colors duration-300 ${isDarkMode ? "bg-gray-900 text-white" : "bg-white text-black"
+          }`}
       >
         <Hero />
-      <Technologies />
-      <FeaturedProjects />
-      <ExperienceTimeline />
-      <EducationTimeline />
-      <FeaturedBlogs />
+        <GitHubContributions />
+        <Technologies />
+        <FeaturedProjects />
+        <ExperienceTimeline />
+        <EducationTimeline />
+        <FeaturedBlogs />
       </motion.div>
     </>
   );
